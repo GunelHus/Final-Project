@@ -120,7 +120,8 @@
   vertical-align: middle;
 }
 
-.pro-dental .svg, .pro-dental img {
+.pro-dental .svg,
+.pro-dental img {
   max-width: 100%;
   height: auto;
 }
@@ -251,5 +252,88 @@
     -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
+}
+
+.pro-dental-txt {
+  color: white;
+}
+
+.pro-dental-txt h1 {
+  font-size: 60px;
+  margin-bottom: 22px;
+}
+
+.pro-dental-txt p {
+  margin-bottom: 56px;
+}
+
+.pro-dental-txt .our-services-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.pro-dental-txt a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  cursor: cell;
+  font-weight: 400;
+}
+
+.pro-dental-img {
+  position: relative;
+}
+
+.pro-dental-img .pro-dental-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: zoom-fade 5s linear 0s infinite;
+          animation: zoom-fade 5s linear 0s infinite;
+  z-index: -1;
+}
+
+@-webkit-keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+}
+
+@keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+}
+
+.pro-dental-img .dental-images {
+  position: relative;
+}
+
+.pro-dental-img .dental-images .dents-img {
+  position: absolute;
+}
+
+.pro-dental-img .dental-images .dents-man {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
