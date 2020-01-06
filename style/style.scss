@@ -1,0 +1,37 @@
+* {
+}
+
+.navbar {
+	align-items: center;
+}
+.nav-links {
+	display: flex;
+
+	ul {
+		list-style: none;
+		display: flex;
+		li {
+			padding: 0 15px;
+			a {
+				color: rgb(46, 42, 42);
+				text-decoration: none;
+				&:hover {
+                    color: #818181;
+                }
+			}
+            .dropdown-pages{
+                ul{
+                    display: none;
+                    width: 200px;
+                    position: absolute;
+                    background-color: white;
+                    padding: 12px 16px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    &:hover{
+                        display: block;
+                    }
+                }
+            }
+		}
+	}
+}
