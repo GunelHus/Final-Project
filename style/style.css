@@ -256,6 +256,7 @@
 
 .pro-dental-txt {
   color: white;
+  top: 50px;
 }
 
 .pro-dental-txt h1 {
@@ -265,6 +266,7 @@
 
 .pro-dental-txt p {
   margin-bottom: 56px;
+  line-height: 1.7;
 }
 
 .pro-dental-txt .our-services-btn {
@@ -282,11 +284,19 @@
   font-weight: 400;
 }
 
-.pro-dental-img {
+.pro-dental .container {
+  height: 100%;
+}
+
+.pro-dental .container .row {
+  height: 100%;
+}
+
+.pro-dental .container .row .pro-dental-img {
   position: relative;
 }
 
-.pro-dental-img .pro-dental-svg {
+.pro-dental .container .row .pro-dental-img .pro-dental-svg {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -325,15 +335,52 @@
   }
 }
 
-.pro-dental-img .dental-images {
+.pro-dental .container .row .pro-dental-img .dental-images {
   position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.pro-dental-img .dental-images .dents-img {
+.pro-dental .container .row .pro-dental-img .dental-images img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
+
+.pro-dental .container .row .pro-dental-img .dental-images .dents-img {
   position: absolute;
 }
 
-.pro-dental-img .dental-images .dents-man {
+.pro-dental .container .row .pro-dental-img .dental-images .dent-man {
   position: absolute;
+  -webkit-animation: matrix 8s 2s infinite alternate;
+          animation: matrix 8s 2s infinite alternate;
+  left: -45px;
+  padding-top: 212px;
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+            transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+            transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+            transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+            transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+            transform: matrix(1, 0, 0, 1, 0, 0);
+  }
 }
 /*# sourceMappingURL=style.css.map */

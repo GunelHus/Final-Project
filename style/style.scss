@@ -171,12 +171,14 @@
 }
 .pro-dental-txt {
 	color: white;
+	top: 50px;
 	h1 {
 		font-size: 60px;
 		margin-bottom: 22px;
 	}
 	p {
 		margin-bottom: 56px;
+		line-height: 1.7;
 	}
 	.our-services-btn {
 		align-items: center;
@@ -190,34 +192,70 @@
 		font-weight: 400;
 	}
 }
-.pro-dental-img {
-	position: relative;
-	.pro-dental-svg {
-		position: absolute;
-		width: 100%;
+.pro-dental{
+.container{
+	height: 100%;
+	.row{
 		height: 100%;
-		animation: zoom-fade 5s linear 0s infinite;
-		z-index: -1;
-    }
-    @keyframes zoom-fade{
-        0% {
-            transform: scale(.97);
-        }
-        50% {
-            transform: scale(1);
-        }
-        100% {
-            transform: scale(.97);
-    }
+		.pro-dental-img {
+			position: relative;
+			.pro-dental-svg {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				animation: zoom-fade 5s linear 0s infinite;
+				z-index: -1;
+			}
+			@keyframes zoom-fade {
+				0% {
+					transform: scale(.97);
+				}
+				50% {
+					transform: scale(1);
+				}
+				100% {
+					transform: scale(.97);
+				}
+			}
+			.dental-images {
+				position: relative;
+				height: 100%;
+				display: flex;
+				img {
+					vertical-align: middle;
+					border-style: none;
+					max-width: 100%;
+				}
+				.dents-img {
+					position: absolute;
+				}
+				.dent-man {
+					position: absolute;
+					animation: matrix 8s 2s infinite alternate;
+					left:-45px;
+					padding-top: 212px;
+				}
+				@keyframes matrix{
+					0% {
+						transform: matrix(1,0,0,1,0,0);
+					}
+					25% {
+						transform: matrix(1,0,0,1,15,20);
+					}
+					50% {
+						transform: matrix(1,0,0,1,-5,25);
+					}
+					75% {
+						transform: matrix(1,0,0,1,-15,15);
+					}
+					100% {
+						transform: matrix(1,0,0,1,0,0);
+					}
+				}
+			}
+		}
+	}
 }
-	.dental-images {
-        position: relative;
-        .dents-img{
-            position: absolute;
-        }
-        .dents-man{
-            position: absolute;
-        }
-    }
-   
+
+
 }
