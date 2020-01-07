@@ -378,28 +378,27 @@
 					padding: 50px 29px;
 					margin-bottom: 30px;
 					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
-					&:hover{
+					&:hover {
 						background-color: #241194;
 						transition: 0.5s;
 					}
-					&:hover h3{
+					&:hover h3 {
 						color: white;
 					}
-					&:hover a{
+					&:hover a {
 						color: white;
 					}
-					&:hover span{
+					&:hover span {
 						color: white;
 					}
-					&:hover .svg-hover{
+					&:hover .svg-hover {
 						color: white;
 					}
 					h3 {
 						font-size: 24px;
 						font-weight: 700;
 						line-height: 1;
-						font-family: "Josefin Sans",sans-serif;
-						
+						font-family: "Josefin Sans", sans-serif;
 					}
 					span {
 						line-height: 1.5;
@@ -424,7 +423,7 @@
 					text-align: left;
 					line-height: 1.15;
 					font-weight: bold;
-					font-family: "Josefin Sans",sans-serif;
+					font-family: "Josefin Sans", sans-serif;
 				}
 				p {
 					font-size: 16px;
@@ -432,31 +431,189 @@
 					color: #818181;
 					font-family: 'Lora', serif;
 				}
-				a{
+				a {
 					color: #fc5185;
 					cursor: pointer;
 					font-weight: bold;
 					text-decoration: none;
 					font-size: 16px;
-					top:20px;
+					top: 20px;
 				}
 			}
 		}
 	}
 }
 
-.dental-treatment{
-	
-	.treatment{
+.dental-treatment {
+	.treatment {
 		padding-top: 140px;
-		.row{
-			.treatment-title{
+		.row {
+			.treatment-title {
 				width: 100%;
-				h1{
+				h1 {
 					text-align: center;
-					font-family: "Josefin Sans",sans-serif;
+					font-family: "Josefin Sans", sans-serif;
 					font-weight: bold;
 					font-size: 40px;
+				}
+			}
+		}
+		.treatment-service {
+			&:hover .treatment-name {
+				background-color: #fc5185;
+				transition: 1s;
+			}
+			&:hover .treatment-name a {
+				color: white;
+				transition: 1s;
+			}
+
+			.treatment-name {
+				padding: 30px 10px;
+				text-align: center;
+				margin-bottom: 20px;
+				margin-top: -4px;
+				a {
+					color: black;
+					font-family: "Josefin Sans", sans-serif;
+					text-decoration: none;
+					font-size: 23px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+.our-best-spec {
+	position: relative;
+	.our-best-svg {
+		position: absolute;
+		top: 50%;
+
+		left: 0;
+		width: 100%;
+
+		.plus-icon1 {
+			left: 60%;
+			top: 15%;
+		}
+
+		.plus-icon {
+			animation: zoomIn 2s infinite alternate;
+			position: absolute;
+		}
+		svg {
+			overflow: hidden;
+			vertical-align: middle;
+		}
+		.svg,
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		.plus-icon2 {
+			right: 10%;
+			top: 25%;
+			animation-delay: 1s;
+		}
+		.plus-icon3 {
+			right: 5%;
+			top: 50%;
+			animation-delay: 2s;
+		}
+		.plus-icon4 {
+			right: 10%;
+			top: 75%;
+			animation-delay: 3s;
+		}
+		.plus-icon5 {
+			left: 5%;
+			top: 50%;
+			animation-delay: 4s;
+		}
+		.plus-icon6 {
+			left: 20%;
+			top: 20%;
+			animation-delay: 5s;
+		}
+		.circle-icon1 {
+			left: 5%;
+			top: 30%;
+			animation-delay: 6s;
+		}
+		.circle-icon {
+			animation: matrix 8s infinite alternate;
+			position: absolute;
+		}
+		.circle-icon2 {
+			left: 40%;
+			bottom: 10%;
+		}
+		@keyframes zoomIn {
+			0% {
+				-webkit-transform: scale(0);
+				transform: scale(0);
+			}
+
+			100% {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+		}
+		@keyframes matrix {
+			0% {
+				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+				transform: matrix(1, 0, 0, 1, 0, 0);
+			}
+			25% {
+				-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+				transform: matrix(1, 0, 0, 1, 15, 20);
+			}
+			50% {
+				-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+				transform: matrix(1, 0, 0, 1, -5, 25);
+			}
+			75% {
+				-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+				transform: matrix(1, 0, 0, 1, -15, 15);
+			}
+			100% {
+				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+				transform: matrix(1, 0, 0, 1, 0, 0);
+			}
+		}
+	}
+
+	.container {
+		
+		height: 100%;
+		.row {
+			position: relative;
+			.our-best-left {
+				position: relative;
+				.our-best-title {
+					h2 {
+						font-size: 48px;
+						text-align: left;
+						line-height: 1.15;
+						font-weight: bold;
+						font-family: "Josefin Sans", sans-serif;
+					}
+				}
+				.our-best-text {
+					p {
+						font-size: 16px;
+						line-height: 1.7;
+						color: #818181;
+						font-family: 'Lora', serif;
+					}
+					a {
+						color: #fc5185;
+						cursor: pointer;
+						font-weight: bold;
+						text-decoration: none;
+						font-size: 16px;
+					}
 				}
 			}
 		}
