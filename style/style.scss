@@ -378,16 +378,87 @@
 					padding: 50px 29px;
 					margin-bottom: 30px;
 					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					&:hover{
+						background-color: #241194;
+						transition: 0.5s;
+					}
+					&:hover h3{
+						color: white;
+					}
+					&:hover a{
+						color: white;
+					}
+					&:hover span{
+						color: white;
+					}
+					&:hover .svg-hover{
+						color: white;
+					}
+					h3 {
+						font-size: 24px;
+						font-weight: 700;
+						line-height: 1;
+						font-family: "Josefin Sans",sans-serif;
+						
+					}
+					span {
+						line-height: 1.5;
+						a {
+							text-decoration: none;
+							color: black;
+						}
+					}
 				}
 				.call-us {
 					top: 135px;
 				}
 			}
+			.welcome-text {
+				display: flex;
+				align-self: center;
+				flex-direction: column;
+				left: 140px;
+				padding: 54px 61px;
+				h1 {
+					font-size: 48px;
+					text-align: left;
+					line-height: 1.15;
+					font-weight: bold;
+					font-family: "Josefin Sans",sans-serif;
+				}
+				p {
+					font-size: 16px;
+					line-height: 1.7;
+					color: #818181;
+					font-family: 'Lora', serif;
+				}
+				a{
+					color: #fc5185;
+					cursor: pointer;
+					font-weight: bold;
+					text-decoration: none;
+					font-size: 16px;
+					top:20px;
+				}
+			}
 		}
-		.welcome-text {
-			display: flex;
-			align-self: center;
-			flex-direction: column;
+	}
+}
+
+.dental-treatment{
+	
+	.treatment{
+		padding-top: 140px;
+		.row{
+			.treatment-title{
+				width: 100%;
+				h1{
+					text-align: center;
+					font-family: "Josefin Sans",sans-serif;
+					font-weight: bold;
+					font-size: 40px;
+				}
+			}
 		}
 	}
 }

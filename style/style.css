@@ -541,11 +541,49 @@
           box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
 }
 
+.welcome .container .row .welcome-left .welcome-box:hover {
+  background-color: #241194;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.welcome .container .row .welcome-left .welcome-box:hover h3 {
+  color: white;
+}
+
+.welcome .container .row .welcome-left .welcome-box:hover a {
+  color: white;
+}
+
+.welcome .container .row .welcome-left .welcome-box:hover span {
+  color: white;
+}
+
+.welcome .container .row .welcome-left .welcome-box:hover .svg-hover {
+  color: white;
+}
+
+.welcome .container .row .welcome-left .welcome-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+.welcome .container .row .welcome-left .welcome-box span {
+  line-height: 1.5;
+}
+
+.welcome .container .row .welcome-left .welcome-box span a {
+  text-decoration: none;
+  color: black;
+}
+
 .welcome .container .row .welcome-left .call-us {
   top: 135px;
 }
 
-.welcome .container .welcome-text {
+.welcome .container .row .welcome-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,5 +593,46 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  left: 140px;
+  padding: 54px 61px;
+}
+
+.welcome .container .row .welcome-text h1 {
+  font-size: 48px;
+  text-align: left;
+  line-height: 1.15;
+  font-weight: bold;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+.welcome .container .row .welcome-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  font-family: 'Lora', serif;
+}
+
+.welcome .container .row .welcome-text a {
+  color: #fc5185;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  top: 20px;
+}
+
+.dental-treatment .treatment {
+  padding-top: 140px;
+}
+
+.dental-treatment .treatment .row .treatment-title {
+  width: 100%;
+}
+
+.dental-treatment .treatment .row .treatment-title h1 {
+  text-align: center;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: bold;
+  font-size: 40px;
 }
 /*# sourceMappingURL=style.css.map */
