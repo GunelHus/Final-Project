@@ -1282,8 +1282,25 @@ body {
   font-size: 16px;
 }
 
-.our-patients .container .row h1 {
+.our-patients {
+  margin-top: 140px;
+}
+
+.our-patients .patients-title {
+  text-align: center;
+}
+
+.our-patients .patients-title h2 {
   font-size: 40px;
   line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.our-patients .owl-patients img {
+  border-radius: 50%;
+}
+
+.our-patients .owl-patients .patients-name {
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */

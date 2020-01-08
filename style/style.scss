@@ -951,8 +951,8 @@ body {
 						cursor: pointer;
 						font-family: "Josefin Sans", sans-serif;
 						transition: .3s linear;
-						&:hover{
-							color:#fc5185;
+						&:hover {
+							color: #fc5185;
 						}
 					}
 					p {
@@ -1007,14 +1007,23 @@ body {
 	}
 }
 
-// Patients SaySection Start
-.our-patients{
-	.container{
-		.row{
-			h1{
-				font-size: 40px;
-				line-height: 1.2;
-			}
+// Patients Say Section Start
+.our-patients {
+	margin-top: 140px;
+	.patients-title {
+		text-align: center;
+		h2 {
+			font-size: 40px;
+			line-height: 1.2;
+			font-family: "Josefin Sans", sans-serif;
+		}
+	}
+	.owl-patients{
+		img{
+			border-radius: 50%;
+		}
+		.patients-name{
+			font-size: 24px;
 		}
 	}
 }
