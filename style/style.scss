@@ -1018,12 +1018,28 @@ body {
 			font-family: "Josefin Sans", sans-serif;
 		}
 	}
-	.owl-patients{
-		img{
-			border-radius: 50%;
-		}
-		.patients-name{
-			font-size: 24px;
+	.owl-carousel {
+		.owl-patients {
+			.row {
+				// img{
+				// 	border-radius: 50%;
+				// }
+				.col-md-6 {
+					p:first-child {
+						font-size: 24px;
+						font-family: "Josefin Sans", sans-serif;
+						font-weight: 700;
+						line-height: 1;
+					}
+					p:nth-child(2) {
+						padding-top: 10px;
+						font-size: 16px;
+						line-height: 1.7;
+						color: #818181;
+						font-family: Lora,serif;
+					}
+				}
+			}
 		}
 	}
 }

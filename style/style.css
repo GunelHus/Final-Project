@@ -1296,11 +1296,18 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.our-patients .owl-patients img {
-  border-radius: 50%;
+.our-patients .owl-carousel .owl-patients .row .col-md-6 p:first-child {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1;
 }
 
-.our-patients .owl-patients .patients-name {
-  font-size: 24px;
+.our-patients .owl-carousel .owl-patients .row .col-md-6 p:nth-child(2) {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  font-family: Lora,serif;
 }
 /*# sourceMappingURL=style.css.map */
