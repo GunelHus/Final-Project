@@ -691,6 +691,7 @@ body {
 	position: relative;
 	height: 100%;
 	width: 100%;
+	top: 100px;
 	.discount-svg {
 		position: absolute;
 		top: 50%;
@@ -835,12 +836,13 @@ body {
 		}
 	}
 }
-.meet-our{
+.meet-our {
+	padding-top: 200px;
 	position: relative;
-	.container{
-		.row{
+	.container {
+		.row {
 			position: relative;
-			.meet-our-svg{
+			.meet-our-svg {
 				position: absolute;
 				top: 50%;
 				left: 0;
@@ -849,7 +851,7 @@ body {
 					left: 60%;
 					top: 15%;
 				}
-		
+
 				.plus-icon {
 					animation: zoomIn 2s infinite alternate;
 					position: absolute;
@@ -906,7 +908,7 @@ body {
 						-webkit-transform: scale(0);
 						transform: scale(0);
 					}
-		
+
 					100% {
 						-webkit-transform: scale(1);
 						transform: scale(1);
@@ -934,6 +936,84 @@ body {
 						transform: matrix(1, 0, 0, 1, 0, 0);
 					}
 				}
+			}
+			.meet-our-right {
+				position: relative;
+				.meet-our-name1 {
+					text-align: center;
+					padding-top: 40px;
+					a {
+						text-decoration: none;
+						color: black;
+						font-size: 24px;
+						font-weight: 700;
+						line-height: 1;
+						cursor: pointer;
+						font-family: "Josefin Sans", sans-serif;
+						transition: .3s linear;
+						&:hover{
+							color:#fc5185;
+						}
+					}
+					p {
+						color: #818181;
+						font-family: Lora, serif;
+						font-size: 16px;
+						line-height: 1.7;
+					}
+				}
+				.meet-our-circle {
+					position: absolute;
+					top: -32%;
+					left: 0;
+					width: 100%;
+
+					svg {
+						max-width: 100%;
+						height: auto;
+						overflow: hidden;
+						vertical-align: middle;
+						animation: spinner-border 80s linear 0s infinite;
+					}
+				}
+			}
+			@keyframes spinner-border {
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+			.meet-our-left {
+				h1 {
+					font-size: 48px;
+					font-family: "Josefin Sans", sans-serif;
+				}
+			}
+			.meet-our-text {
+				p {
+					font-family: Lora, serif;
+					color: #818181;
+					font-size: 16px;
+					line-height: 1.7;
+				}
+				a {
+					color: #fc5185;
+					cursor: pointer;
+					font-weight: bold;
+					text-decoration: none;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+// Patients SaySection Start
+.our-patients{
+	.container{
+		.row{
+			h1{
+				font-size: 40px;
+				line-height: 1.2;
 			}
 		}
 	}
