@@ -1284,30 +1284,223 @@ body {
 
 .our-patients {
   margin-top: 140px;
+  position: relative;
 }
 
-.our-patients .patients-title {
+.our-patients .container .row {
+  position: relative;
+}
+
+.our-patients .container .row .patients-circle {
+  position: absolute;
+}
+
+.our-patients .container .row .patients-circle svg {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  vertical-align: middle;
+  -webkit-animation: spinner-border 80s linear 0s infinite;
+          animation: spinner-border 80s linear 0s infinite;
+}
+
+@keyframes spinner-border {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.our-patients .container .row .patients-title {
   text-align: center;
 }
 
-.our-patients .patients-title h2 {
+.our-patients .container .row .patients-title h2 {
   font-size: 40px;
   line-height: 1.2;
   font-family: "Josefin Sans", sans-serif;
 }
 
-.our-patients .owl-carousel .owl-patients .row .col-md-6 p:first-child {
+.our-patients .container .row .owl-carousel .item {
+  width: 517px;
+  height: 360px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .row {
+  padding-top: 35px;
+  padding-left: 30px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .row .col-md-2 {
+  margin-right: 25px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .row .col-md-2 img {
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .row .col-md-6 {
+  top: -15px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .row .col-md-6 p:first-child {
   font-size: 24px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   line-height: 1;
 }
 
-.our-patients .owl-carousel .owl-patients .row .col-md-6 p:nth-child(2) {
+.our-patients .container .row .owl-carousel .item .owl-patients .row .col-md-6 p:nth-child(2) {
   padding-top: 10px;
   font-size: 16px;
   line-height: 1.7;
   color: #818181;
-  font-family: Lora,serif;
+  font-family: Lora, serif;
+  margin-top: -25px;
+}
+
+.our-patients .container .row .owl-carousel .item .owl-patients .col-md-10 {
+  font-family: Lora, serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  padding-left: 60px;
+}
+
+.latest-news {
+  position: relative;
+}
+
+.latest-news .container .row .latest-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.latest-news .container .row .latest-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+.latest-news .container .row .latest-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+.latest-news .container .row .latest-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.latest-news .container .row .latest-svg .svg,
+.latest-news .container .row .latest-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.latest-news .container .row .latest-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.latest-news .container .row .latest-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.latest-news .container .row .latest-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.latest-news .container .row .latest-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.latest-news .container .row .latest-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.latest-news .container .row .latest-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.latest-news .container .row .latest-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+.latest-news .container .row .latest-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+.latest-news .container .row .latest-title {
+  text-align: center;
+}
+
+.latest-news .container .row .latest-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
