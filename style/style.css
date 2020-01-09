@@ -652,13 +652,13 @@ body {
   font-size: 40px;
 }
 
-.dental-treatment .treatment .treatment-service:hover .treatment-name {
+.dental-treatment .treatment .treatment-service .col-md-4:hover .treatment-name {
   background-color: #fc5185;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.dental-treatment .treatment .treatment-service:hover .treatment-name a {
+.dental-treatment .treatment .treatment-service .col-md-4:hover .treatment-name a {
   color: white;
   -webkit-transition: 1s;
   transition: 1s;
@@ -1502,5 +1502,36 @@ body {
   font-size: 40px;
   line-height: 1.2;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.latest-news .container .row .latest-box {
+  -webkit-box-shadow: 18px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 18px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+.latest-news .container .row .latest-box .latest-img a img {
+  width: 100%;
+}
+
+.latest-news .container .row .latest-box .latest-content {
+  padding: 10px 90px 30px 45px;
+}
+
+.latest-news .container .row .latest-box .latest-content h3 a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+.latest-news .container .row .latest-box .latest-content a {
+  color: #fc5185;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

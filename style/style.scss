@@ -458,7 +458,7 @@ body {
 		}
 	}
 }
-
+// Dental Treatment Section Start
 .dental-treatment {
 	.treatment {
 		padding-top: 140px;
@@ -474,15 +474,18 @@ body {
 			}
 		}
 		.treatment-service {
-			&:hover .treatment-name {
-				background-color: #fc5185;
-				transition: 1s;
+			.col-md-4 {
+				&:hover {
+					.treatment-name {
+						background-color: #fc5185;
+						transition: 1s;
+						a {
+							color: white;
+							transition: 1s;
+						}
+					}
+				}
 			}
-			&:hover .treatment-name a {
-				color: white;
-				transition: 1s;
-			}
-
 			.treatment-name {
 				padding: 30px 10px;
 				text-align: center;
@@ -499,6 +502,9 @@ body {
 		}
 	}
 }
+// Dental Treatment Section End
+
+// Our Best Specialties Section Start
 .our-best-spec {
 	position: relative;
 	.our-best-svg {
@@ -1011,10 +1017,10 @@ body {
 .our-patients {
 	margin-top: 140px;
 	position: relative;
-	.container{
-		.row{
+	.container {
+		.row {
 			position: relative;
-			.patients-circle{
+			.patients-circle {
 				position: absolute;
 				svg {
 					max-width: 100%;
@@ -1022,7 +1028,6 @@ body {
 					overflow: hidden;
 					vertical-align: middle;
 					animation: spinner-border 80s linear 0s infinite;
-					
 				}
 				@keyframes spinner-border {
 					100% {
@@ -1030,181 +1035,211 @@ body {
 					}
 				}
 			}
-		
-		
-		.patients-title {
-			text-align: center;
-			h2 {
-				font-size: 40px;
-				line-height: 1.2;
-				font-family: "Josefin Sans", sans-serif;
+
+			.patients-title {
+				text-align: center;
+				h2 {
+					font-size: 40px;
+					line-height: 1.2;
+					font-family: "Josefin Sans", sans-serif;
+				}
 			}
-		}
-		.owl-carousel {
-			.item {
-				width: 517px;
-				height: 360px;
-				box-shadow: 0 0 20px rgba(0, 0, 0, .04);
-				margin-top: 10px;
-				margin-bottom: 10px;
-				margin-left: 20px;
-				
-				.owl-patients {
-					
-					.row {
-						padding-top: 35px;
-						padding-left: 30px;
-						.col-md-2 {
-							margin-right: 25px;
-							img {
-								border-radius: 50%;
-								width: 95px;
-								height: 95px;
+			.owl-carousel {
+				.item {
+					width: 517px;
+					height: 360px;
+					box-shadow: 0 0 20px rgba(0, 0, 0, .04);
+					margin-top: 10px;
+					margin-bottom: 10px;
+					margin-left: 20px;
+
+					.owl-patients {
+						.row {
+							padding-top: 35px;
+							padding-left: 30px;
+							.col-md-2 {
+								margin-right: 25px;
+								img {
+									border-radius: 50%;
+									width: 95px;
+									height: 95px;
+								}
+							}
+
+							.col-md-6 {
+								top: -15px;
+								p:first-child {
+									font-size: 24px;
+									font-family: "Josefin Sans", sans-serif;
+									font-weight: 700;
+									line-height: 1;
+								}
+								p:nth-child(2) {
+									padding-top: 10px;
+									font-size: 16px;
+									line-height: 1.7;
+									color: #818181;
+									font-family: Lora, serif;
+									margin-top: -25px;
+								}
 							}
 						}
-	
-						.col-md-6 {
-							top: -15px;
-							p:first-child {
-								font-size: 24px;
-								font-family: "Josefin Sans", sans-serif;
-								font-weight: 700;
-								line-height: 1;
-							}
-							p:nth-child(2) {
-								padding-top: 10px;
-								font-size: 16px;
-								line-height: 1.7;
-								color: #818181;
-								font-family: Lora, serif;
-								margin-top: -25px;
-							}
+						.col-md-10 {
+							font-family: Lora, serif;
+							font-size: 16px;
+							line-height: 1.7;
+							color: #818181;
+							padding-left: 60px;
 						}
-					}
-					.col-md-10 {
-						font-family: Lora, serif;
-						font-size: 16px;
-						line-height: 1.7;
-						color: #818181;
-						padding-left: 60px;
 					}
 				}
 			}
 		}
-			}
 	}
-	}
-	
+}
+
 // Patients Say Section End
 
 // Latest News Section Start
-.latest-news{ 
+.latest-news {
 	position: relative;
-	.container{
-		.row{
-			.latest-svg{
+	.container {
+		.row {
+			.latest-svg {
 				position: absolute;
 				top: 50%;
-		left: 0;
-		width: 100%;
+				left: 0;
+				width: 100%;
 
-		.plus-icon1 {
-			left: 60%;
-			top: 15%;
-		}
+				.plus-icon1 {
+					left: 60%;
+					top: 15%;
+				}
 
-		.plus-icon {
-			animation: zoomIn 2s infinite alternate;
-			position: absolute;
-		}
-		svg {
-			overflow: hidden;
-			vertical-align: middle;
-		}
-		.svg,
-		img {
-			max-width: 100%;
-			height: auto;
-		}
-		.plus-icon2 {
-			right: 10%;
-			top: 25%;
-			animation-delay: 1s;
-		}
-		.plus-icon3 {
-			right: 5%;
-			top: 50%;
-			animation-delay: 2s;
-		}
-		.plus-icon4 {
-			right: 10%;
-			top: 75%;
-			animation-delay: 3s;
-		}
-		.plus-icon5 {
-			left: 5%;
-			top: 50%;
-			animation-delay: 4s;
-		}
-		.plus-icon6 {
-			left: 20%;
-			top: 20%;
-			animation-delay: 5s;
-		}
-		.circle-icon1 {
-			left: 5%;
-			top: 30%;
-			animation-delay: 6s;
-		}
-		.circle-icon {
-			animation: matrix 8s infinite alternate;
-			position: absolute;
-		}
-		.circle-icon2 {
-			left: 40%;
-			bottom: 10%;
-		}
-		@keyframes zoomIn {
-			0% {
-				-webkit-transform: scale(0);
-				transform: scale(0);
-			}
+				.plus-icon {
+					animation: zoomIn 2s infinite alternate;
+					position: absolute;
+				}
+				svg {
+					overflow: hidden;
+					vertical-align: middle;
+				}
+				.svg,
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+				.plus-icon2 {
+					right: 10%;
+					top: 25%;
+					animation-delay: 1s;
+				}
+				.plus-icon3 {
+					right: 5%;
+					top: 50%;
+					animation-delay: 2s;
+				}
+				.plus-icon4 {
+					right: 10%;
+					top: 75%;
+					animation-delay: 3s;
+				}
+				.plus-icon5 {
+					left: 5%;
+					top: 50%;
+					animation-delay: 4s;
+				}
+				.plus-icon6 {
+					left: 20%;
+					top: 20%;
+					animation-delay: 5s;
+				}
+				.circle-icon1 {
+					left: 5%;
+					top: 30%;
+					animation-delay: 6s;
+				}
+				.circle-icon {
+					animation: matrix 8s infinite alternate;
+					position: absolute;
+				}
+				.circle-icon2 {
+					left: 40%;
+					bottom: 10%;
+				}
+				@keyframes zoomIn {
+					0% {
+						-webkit-transform: scale(0);
+						transform: scale(0);
+					}
 
-			100% {
-				-webkit-transform: scale(1);
-				transform: scale(1);
+					100% {
+						-webkit-transform: scale(1);
+						transform: scale(1);
+					}
+				}
+				@keyframes matrix {
+					0% {
+						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+						transform: matrix(1, 0, 0, 1, 0, 0);
+					}
+					25% {
+						-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+						transform: matrix(1, 0, 0, 1, 15, 20);
+					}
+					50% {
+						-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+						transform: matrix(1, 0, 0, 1, -5, 25);
+					}
+					75% {
+						-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+						transform: matrix(1, 0, 0, 1, -15, 15);
+					}
+					100% {
+						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+						transform: matrix(1, 0, 0, 1, 0, 0);
+					}
+				}
 			}
-		}
-		@keyframes matrix {
-			0% {
-				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-				transform: matrix(1, 0, 0, 1, 0, 0);
-			}
-			25% {
-				-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
-				transform: matrix(1, 0, 0, 1, 15, 20);
-			}
-			50% {
-				-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
-				transform: matrix(1, 0, 0, 1, -5, 25);
-			}
-			75% {
-				-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
-				transform: matrix(1, 0, 0, 1, -15, 15);
-			}
-			100% {
-				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-				transform: matrix(1, 0, 0, 1, 0, 0);
-			}
-		}
-			}
-			.latest-title{
+			.latest-title {
 				text-align: center;
-			h2 {
-				font-size: 40px;
-				line-height: 1.2;
-				font-family: "Josefin Sans", sans-serif;
+				h2 {
+					font-size: 40px;
+					line-height: 1.2;
+					font-family: "Josefin Sans", sans-serif;
+				}
 			}
+			.latest-box {
+				box-shadow: 18px 7px 45px rgba(0,0,0,.04);
+				.latest-img {
+					a {
+						img {
+							width: 100%;
+						}
+					}
+				}
+				.latest-content {
+					padding: 10px 90px 30px 45px;
+					h3 {
+						
+						a {
+							text-decoration: none;
+							color: black;
+							transition: .3s linear;
+							line-height: 1.2;
+							font-family: "Josefin Sans", sans-serif;
+							font-size: 24px;
+						}
+					}
+					a{
+						color: #fc5185;
+							cursor: pointer;
+							font-weight: bold;
+							text-decoration: none;
+							font-size: 16px;
+							
+					}
+				}
 			}
 		}
 	}
