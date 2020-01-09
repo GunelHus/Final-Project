@@ -1551,7 +1551,8 @@ body {
 }
 
 .drop-up {
-  top: 100px;
+  top: 300px;
+  bottom: 200px;
   position: relative;
 }
 
@@ -1671,64 +1672,112 @@ body {
   }
 }
 
-.drop-up .container .row .dropup-title {
+.drop-up .container .row .dropup-right {
+  margin-top: -140px;
+}
+
+.drop-up .container .row .dropup-right .dropup-title {
   margin-bottom: 50px;
 }
 
-.drop-up .container .row .dropup-title h2 {
+.drop-up .container .row .dropup-right .dropup-title h2 {
   font-size: 40px;
   line-height: 1.2;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.drop-up .container .row .drop-up-form input {
+.drop-up .container .row .dropup-right .drop-up-form input {
   width: 100%;
   border: none;
   -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
           box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
 }
 
-.drop-up .container .row .drop-up-form .input-name {
+.drop-up .container .row .dropup-right .drop-up-form input::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.drop-up .container .row .dropup-right .drop-up-form input:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.drop-up .container .row .dropup-right .drop-up-form input::-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.drop-up .container .row .dropup-right .drop-up-form input::placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.drop-up .container .row .dropup-right .drop-up-form .input-name {
   margin-bottom: 30px;
 }
 
-.drop-up .container .row .drop-up-form .input-name input {
-  padding: 20px;
+.drop-up .container .row .dropup-right .drop-up-form .input-name input {
+  padding: 25px;
 }
 
-.drop-up .container .row .drop-up-form .input-email {
+.drop-up .container .row .dropup-right .drop-up-form .input-email {
   margin-bottom: 30px;
 }
 
-.drop-up .container .row .drop-up-form .input-email input {
-  padding: 20px;
+.drop-up .container .row .dropup-right .drop-up-form .input-email input {
+  padding: 25px;
 }
 
-.drop-up .container .row .drop-up-form .input-subject {
+.drop-up .container .row .dropup-right .drop-up-form .input-subject {
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 25px;
 }
 
-.drop-up .container .row .drop-up-form .input-text {
-  padding: 70px 200px;
+.drop-up .container .row .dropup-right .drop-up-form .input-text {
+  height: 200px;
+  width: 543px;
   border: none;
   -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
           box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  padding: 20px;
+  margin-bottom: 45px;
 }
 
-.drop-up .container .row .drop-up-form .input-text ::-webkit-input-placeholder {
-  font-size: 35px;
+.drop-up .container .row .dropup-right .drop-up-form textarea::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
 }
 
-.drop-up .container .row .drop-up-form .input-text :-ms-input-placeholder {
-  font-size: 35px;
+.drop-up .container .row .dropup-right .drop-up-form textarea:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
 }
 
-.drop-up .container .row .drop-up-form .input-text ::-ms-input-placeholder {
-  font-size: 35px;
+.drop-up .container .row .dropup-right .drop-up-form textarea::-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
 }
 
-.drop-up .container .row .drop-up-form .input-text ::placeholder {
-  font-size: 35px;
+.drop-up .container .row .dropup-right .drop-up-form textarea::placeholder {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.drop-up .container .row .dropup-right .drop-up-form a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: #fc5185;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-family: Lora,serif;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.footer {
+  background-color: #241194;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

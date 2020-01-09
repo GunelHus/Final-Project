@@ -1262,7 +1262,8 @@ body {
 
 // Drop Up Section Start
 .drop-up {
-	top: 100px;
+	top: 300px;
+	bottom: 200px;
 	position: relative;
 	.container {
 		.row {
@@ -1362,44 +1363,74 @@ body {
 					}
 				}
 			}
-			.dropup-title {
-				margin-bottom: 50px;
-				h2{
-					font-size: 40px;
-				line-height: 1.2;
-				font-family: "Josefin Sans",sans-serif;
-				}
-			}
-			.drop-up-form{
-				input{
-					width: 100%;
-					border: none;
-					box-shadow: 10px 7px 45px rgba(0,0,0,.04);
-				}
-				.input-name{
-					margin-bottom:30px;
-					input{
-						padding:20px;
-						
+			.dropup-right {
+				margin-top: -140px;
+				.dropup-title {
+					margin-bottom: 50px;
+					h2 {
+						font-size: 40px;
+						line-height: 1.2;
+						font-family: "Josefin Sans", sans-serif;
 					}
 				}
-				.input-email{
-					margin-bottom: 30px;
-					input{
+				.drop-up-form {
+					input {
+						width: 100%;
+						border: none;
+						box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					}
+					input::placeholder {
+						font-size: 15px;
+						font-family: 'Lora', serif;
+					}
+					.input-name {
+						margin-bottom: 30px;
+						input {
+							padding: 25px;
+						}
+					}
+					.input-email {
+						margin-bottom: 30px;
+						input {
+							padding: 25px;
+						}
+					}
+					.input-subject {
+						margin-bottom: 30px;
+						padding: 25px;
+					}
+					.input-text {
+						height: 200px;
+						width: 543px;
+						border: none;
+						box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
 						padding: 20px;
+						margin-bottom: 45px;
 					}
-				}
-				.input-subject{
-					margin-bottom: 30px;
-					padding: 20px;
-				}
-				.input-text{
-					padding: 70px 200px;
-					border: none;
-					box-shadow: 10px 7px 45px rgba(0,0,0,.04)
+					textarea::placeholder {
+						font-size: 15px;
+						font-family: 'Lora', serif;
+					}
+					a{
+						cursor: pointer;
+						text-decoration: none;
+						color: white;
+						background-color: #fc5185;
+						padding: 15px 30px;
+						font-size: 16px;
+						font-family: Lora,serif;
+						transition: .3s linear;
+
 					}
 				}
 			}
 		}
 	}
 }
+// Drop Up Section End
+
+// Footer Start
+.footer{
+	background-color: #241194;
+	color: white;
+};
