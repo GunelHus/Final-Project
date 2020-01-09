@@ -1509,12 +1509,27 @@ body {
           box-shadow: 18px 7px 45px rgba(0, 0, 0, 0.04);
 }
 
+.latest-news .container .row .latest-box:hover .latest-content {
+  background-color: #241194;
+}
+
+.latest-news .container .row .latest-box:hover .latest-content h3 a {
+  color: white;
+}
+
+.latest-news .container .row .latest-box:hover .latest-content a {
+  color: white;
+}
+
 .latest-news .container .row .latest-box .latest-img a img {
   width: 100%;
 }
 
 .latest-news .container .row .latest-box .latest-content {
   padding: 10px 90px 30px 45px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  margin-top: -4px;
 }
 
 .latest-news .container .row .latest-box .latest-content h3 a {
@@ -1533,5 +1548,187 @@ body {
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
+}
+
+.drop-up {
+  top: 100px;
+  position: relative;
+}
+
+.drop-up .container .row .drop-up-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+.drop-up .container .row .drop-up-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.drop-up .container .row .drop-up-svg .svg,
+.drop-up .container .row .drop-up-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.drop-up .container .row .drop-up-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.drop-up .container .row .drop-up-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.drop-up .container .row .drop-up-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+.drop-up .container .row .drop-up-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+.drop-up .container .row .dropup-title {
+  margin-bottom: 50px;
+}
+
+.drop-up .container .row .dropup-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+.drop-up .container .row .drop-up-form input {
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+.drop-up .container .row .drop-up-form .input-name {
+  margin-bottom: 30px;
+}
+
+.drop-up .container .row .drop-up-form .input-name input {
+  padding: 20px;
+}
+
+.drop-up .container .row .drop-up-form .input-email {
+  margin-bottom: 30px;
+}
+
+.drop-up .container .row .drop-up-form .input-email input {
+  padding: 20px;
+}
+
+.drop-up .container .row .drop-up-form .input-subject {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.drop-up .container .row .drop-up-form .input-text {
+  padding: 70px 200px;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+.drop-up .container .row .drop-up-form .input-text ::-webkit-input-placeholder {
+  font-size: 35px;
+}
+
+.drop-up .container .row .drop-up-form .input-text :-ms-input-placeholder {
+  font-size: 35px;
+}
+
+.drop-up .container .row .drop-up-form .input-text ::-ms-input-placeholder {
+  font-size: 35px;
+}
+
+.drop-up .container .row .drop-up-form .input-text ::placeholder {
+  font-size: 35px;
 }
 /*# sourceMappingURL=style.css.map */

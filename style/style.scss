@@ -1210,7 +1210,21 @@ body {
 				}
 			}
 			.latest-box {
-				box-shadow: 18px 7px 45px rgba(0,0,0,.04);
+				&:hover {
+					.latest-content {
+						background-color: #241194;
+						h3 {
+							a {
+								color: white;
+							}
+						}
+						a {
+							color: white;
+						}
+					}
+				}
+
+				box-shadow: 18px 7px 45px rgba(0, 0, 0, .04);
 				.latest-img {
 					a {
 						img {
@@ -1220,8 +1234,9 @@ body {
 				}
 				.latest-content {
 					padding: 10px 90px 30px 45px;
+					transition: .3s linear;
+					margin-top: -4px;
 					h3 {
-						
 						a {
 							text-decoration: none;
 							color: black;
@@ -1231,13 +1246,157 @@ body {
 							font-size: 24px;
 						}
 					}
-					a{
+					a {
 						color: #fc5185;
-							cursor: pointer;
-							font-weight: bold;
-							text-decoration: none;
-							font-size: 16px;
-							
+						cursor: pointer;
+						font-weight: bold;
+						text-decoration: none;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+// Latest News Section End
+
+// Drop Up Section Start
+.drop-up {
+	top: 100px;
+	position: relative;
+	.container {
+		.row {
+			.drop-up-svg {
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 100%;
+
+				.plus-icon1 {
+					left: 60%;
+					top: 15%;
+				}
+
+				.plus-icon {
+					animation: zoomIn 2s infinite alternate;
+					position: absolute;
+				}
+				svg {
+					overflow: hidden;
+					vertical-align: middle;
+				}
+				.svg,
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+				.plus-icon2 {
+					right: 10%;
+					top: 25%;
+					animation-delay: 1s;
+				}
+				.plus-icon3 {
+					right: 5%;
+					top: 50%;
+					animation-delay: 2s;
+				}
+				.plus-icon4 {
+					right: 10%;
+					top: 75%;
+					animation-delay: 3s;
+				}
+				.plus-icon5 {
+					left: 5%;
+					top: 50%;
+					animation-delay: 4s;
+				}
+				.plus-icon6 {
+					left: 20%;
+					top: 20%;
+					animation-delay: 5s;
+				}
+				.circle-icon1 {
+					left: 5%;
+					top: 30%;
+					animation-delay: 6s;
+				}
+				.circle-icon {
+					animation: matrix 8s infinite alternate;
+					position: absolute;
+				}
+				.circle-icon2 {
+					left: 40%;
+					bottom: 10%;
+				}
+				@keyframes zoomIn {
+					0% {
+						-webkit-transform: scale(0);
+						transform: scale(0);
+					}
+
+					100% {
+						-webkit-transform: scale(1);
+						transform: scale(1);
+					}
+				}
+				@keyframes matrix {
+					0% {
+						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+						transform: matrix(1, 0, 0, 1, 0, 0);
+					}
+					25% {
+						-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+						transform: matrix(1, 0, 0, 1, 15, 20);
+					}
+					50% {
+						-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+						transform: matrix(1, 0, 0, 1, -5, 25);
+					}
+					75% {
+						-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+						transform: matrix(1, 0, 0, 1, -15, 15);
+					}
+					100% {
+						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+						transform: matrix(1, 0, 0, 1, 0, 0);
+					}
+				}
+			}
+			.dropup-title {
+				margin-bottom: 50px;
+				h2{
+					font-size: 40px;
+				line-height: 1.2;
+				font-family: "Josefin Sans",sans-serif;
+				}
+			}
+			.drop-up-form{
+				input{
+					width: 100%;
+					border: none;
+					box-shadow: 10px 7px 45px rgba(0,0,0,.04);
+				}
+				.input-name{
+					margin-bottom:30px;
+					input{
+						padding:20px;
+						
+					}
+				}
+				.input-email{
+					margin-bottom: 30px;
+					input{
+						padding: 20px;
+					}
+				}
+				.input-subject{
+					margin-bottom: 30px;
+					padding: 20px;
+				}
+				.input-text{
+					padding: 70px 200px;
+					border: none;
+					box-shadow: 10px 7px 45px rgba(0,0,0,.04)
 					}
 				}
 			}
