@@ -43,10 +43,30 @@ body {
 .nav-links ul li a {
   color: white;
   text-decoration: none;
+  padding: 47px 0px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-links ul li a:hover {
   color: #818181;
+}
+
+.nav-links ul li a:hover.before::before {
+  display: block;
+}
+
+.nav-links ul li .before::before {
+  content: "";
+  position: absolute;
+  widows: 100%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  bottom: 0;
+  background: orangered;
+  display: none;
 }
 
 .nav-links ul li .dropdown-menu {
@@ -1771,13 +1791,45 @@ body {
   background-color: #fc5185;
   padding: 15px 30px;
   font-size: 16px;
-  font-family: Lora,serif;
+  font-family: Lora, serif;
   -webkit-transition: .3s linear;
   transition: .3s linear;
 }
 
-.footer {
+footer {
+  position: relative;
+  top: 500px;
+}
+
+footer .footer {
+  padding-top: 50px;
   background-color: #241194;
   color: white;
+}
+
+footer .footer .footer-top ul {
+  list-style: none;
+}
+
+footer .footer .footer-top p, footer .footer .footer-top li {
+  line-height: 1.75;
+}
+
+footer .footer .footer-top p a, footer .footer .footer-top li a {
+  color: white;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  text-decoration: none;
+}
+
+footer .footer .footer-top p a:hover, footer .footer .footer-top li a:hover {
+  color: #fc5185;
+}
+
+footer .footer .footer-top .footer-title h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
