@@ -16,3 +16,17 @@ $('.owl-carousel').owlCarousel({
 		}
 	}
 });
+
+$(function(){
+	$(window).on('scroll',function(){
+var scroll =$(window).scrollTop();
+if(scroll<170){
+$(".header").removeClass("sticky");
+$(".header").removeClass("animated");
+}else{
+	$(".header").addClass("sticky");
+	$(".header").addClass("animated");
+	
+}
+	});
+});
