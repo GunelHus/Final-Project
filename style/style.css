@@ -2150,6 +2150,10 @@ footer .footer .footer-bottom .copy p a:hover {
   transition: .3s linear;
 }
 
+#page-about .about-us .about-title ul li a:hover {
+  color: #fc5185;
+}
+
 #page-about .about-us .about-img {
   height: 350px;
   text-align: end;
@@ -3052,6 +3056,302 @@ footer .footer .footer-bottom .copy p a:hover {
   padding: 15px 30px;
   font-size: 16px;
   font-family: Lora, serif;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#doctors .dentist {
+  padding-top: 60px;
+  height: 100%;
+  background-color: #241194;
+  position: relative;
+  width: 100%;
+}
+
+#doctors .dentist .about-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#doctors .dentist .about-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#doctors .dentist .about-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#doctors .dentist .about-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#doctors .dentist .about-svg .svg,
+#doctors .dentist .about-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#doctors .dentist .about-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#doctors .dentist .about-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#doctors .dentist .about-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#doctors .dentist .about-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#doctors .dentist .about-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#doctors .dentist .about-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#doctors .dentist .about-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#doctors .dentist .about-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#doctors .dentist .about-title {
+  color: white;
+  margin-top: 100px;
+}
+
+#doctors .dentist .about-title h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+#doctors .dentist .about-title ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lora, serif;
+  padding-left: 0;
+}
+
+#doctors .dentist .about-title ul li {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+#doctors .dentist .about-title ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#doctors .dentist .about-title ul li a:hover {
+  color: #fc5185;
+}
+
+#doctors .dentist .about-img {
+  height: 350px;
+  text-align: end;
+}
+
+#doctors .dentist .about-img img {
+  height: 320px;
+}
+
+#doctors .dentist-images {
+  position: relative;
+  top: 100px;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#doctors .dentist-images .dent-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#doctors .dentist-images .dent-svg .svg,
+#doctors .dentist-images .dent-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#doctors .dentist-images .dent-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#doctors .dentist-images .dent-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#doctors .dentist-images .dent-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#doctors .dentist-images .dent-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#doctors .dentist-images .round-box .doc-text {
+  text-align: center;
+}
+
+#doctors .dentist-images .round-box .doc-text h3 a {
+  text-decoration: none;
+  color: black;
   -webkit-transition: .3s linear;
   transition: .3s linear;
 }
