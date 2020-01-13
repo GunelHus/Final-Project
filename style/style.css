@@ -3355,4 +3355,54 @@ footer .footer .footer-bottom .copy p a:hover {
   -webkit-transition: .3s linear;
   transition: .3s linear;
 }
+
+#doctors .dentist-images .round-box .doc-text h3 a:hover {
+  color: #fc5185;
+}
+
+#doctors .dentist-images .round-box .doc-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  margin-top: -12px;
+}
+
+#doctors .dentist-images .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+#doctors .dentist-images .pagination li {
+  padding: 20px 10px;
+}
+
+#doctors .dentist-images .pagination li:hover {
+  background-color: #241194;
+  color: white;
+}
+
+#doctors .dentist-images .pagination li:nth-child(3) {
+  background-color: #241194;
+}
+
+#doctors .dentist-images .pagination li:nth-child(3) a {
+  color: white;
+}
+
+#doctors .dentist-images .pagination li a {
+  text-decoration: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  color: #241194;
+  padding: 15px;
+  -webkit-transition: 3s linear;
+  transition: 3s linear;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */

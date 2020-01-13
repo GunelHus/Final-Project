@@ -2510,6 +2510,7 @@ footer {
 
 // Doctors Page
 #doctors{
+	// Doctors Section Start
 	.dentist {
 		padding-top: 60px;
 		height: 100%;
@@ -2648,6 +2649,9 @@ footer {
 			}
 		}
 	}
+	// Doctors Section End
+
+	// Dentist Images Start
 	.dentist-images{
 		position: relative;
 		top: 100px;
@@ -2746,13 +2750,58 @@ footer {
 			.doc-text{
 				text-align: center;
 				h3{
+
 					a{
 						text-decoration: none;
 						color: black;
 						transition: .3s linear;
+						&:hover{
+							color:#fc5185;
+						}
 					}
+				}
+				p{
+					font-size: 16px;
+					line-height: 1.7;
+					color: #818181;
+					margin-top: -12px;
 				}
 			}			
 		}
+		.pagination{
+				display: flex;
+				justify-content: center;
+				list-style: none;
+				li{
+					&:hover{
+						background-color: #241194;
+						color: white;
+					}
+					padding: 20px 10px;
+					&:nth-child(3){
+						background-color: #241194;
+						a{
+							color: white;
+						}
+					}
+					
+					a{
+						text-decoration: none;
+						box-shadow: 10px 7px 45px rgba(0,0,0,.04);
+						color:#241194;
+						padding: 15px;
+						transition: 3s linear;
+						font-family: "Josefin Sans",sans-serif;
+						font-size: 16px;
+						
+					}
+					
+				}
+		}
 	}
+	// Dentist Images End
+
+	// Request Appointment Section Start
+	
+	// Request Appointment Section Start
 }
