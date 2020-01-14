@@ -3405,4 +3405,14 @@ footer .footer .footer-bottom .copy p a:hover {
   font-family: "Josefin Sans",sans-serif;
   font-size: 16px;
 }
+
+#doctors .request {
+  margin-top: 150px;
+}
+
+#doctors .request .request-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans",sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

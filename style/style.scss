@@ -2802,6 +2802,15 @@ footer {
 	// Dentist Images End
 
 	// Request Appointment Section Start
-	
+	.request{
+		margin-top: 150px;
+		.request-title{
+			h2{
+				font-size: 40px;
+				line-height: 1.2;
+				font-family: "Josefin Sans",sans-serif;
+			}
+		}
+	}
 	// Request Appointment Section Start
 }
