@@ -26,13 +26,13 @@
                         <div class="col-8 nav-links">
                             <ul>
                                 <li>
-                                    <a class="before" href="index.html" class="home">Home</a>
+                                    <a class="before navbar-link" href="index.html" class="home">Home</a>
                                 </li>
                                 <li>
-                                    <a class="before" href="about.html" class="about">About</a>
+                                    <a class="before navbar-link" href="about.html" class="about">About</a>
                                 </li>
                                 <li>
-                                    <a class="before" href="#">Dentist</a>
+                                    <a class="before navbar-link" href="#">Dentist</a>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li><a href="doctors.html">Doctors</a></li>
@@ -41,7 +41,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a class="before" href="#">Pages</a>
+                                    <a class="before navbar-link" href="#">Pages</a>
                                     <!-- Dropdown Menu Section Start -->
                                     <div class="dropdown-menu">
                                         <ul>
@@ -73,7 +73,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a class="before" href="#">Blog</a>
+                                    <a class="before navbar-link" href="#">Blog</a>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li><a href="default.html">Blog Default</a></li>
@@ -83,7 +83,7 @@
                                 </li>
                                 <!-- Dropdown Menu Section End-->
                                 <li>
-                                    <a class="before" href="contact.html">Contact</a>
+                                    <a class="before navbar-link" href="contact.html">Contact</a>
                                 </li>
                                 <li class="getapp">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16.33" height="16.33"
@@ -410,7 +410,7 @@
                             <div class="request-title">
                                 <h2>Request Appointment</h2>
                             </div>
-                            <form>
+                            <form class="request-form">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <input type="text" placeholder="Name*">
@@ -422,26 +422,62 @@
                                         <input type="email" placeholder="Email*">
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="date" placeholder="Date*">
+                                        <input type="text" placeholder="Date*">
                                     </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Regarding">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Preferred Method of Contact">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="text" placeholder="Subject">
-                                        <input type="text" placeholder="Message">
-                                        
+                                    <div class="col-md-6 select">
+                                        <select class="regarding">
+                                            <option value selected>Regarding</option>
+                                            <option value="1">General Dentistry</option>
+                                            <option value="2">Cosmetic Dentistry</option>
+                                            <option value="3">Surgical Dentistry</option>
+                                            <option value="4">Restorative Dentistry</option>
+                                            <option value="5">Pediatric Dentistry</option>
+                                            <option value="6">Teeth Orthodontics</option>
+                                        </select>
 
                                     </div>
+                                    <div class="col-md-6 select">
+                                        <select class="regarding">
+                                            <option value selected>Preferred Method of Contact</option>
+                                            <option value="1">Phone</option>
+                                            <option value="2">Email</option>
+                                            <option value="3">Text Message</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12 subject">
+                                        <input type="text" placeholder="Subject">
+                                        <input type="text" placeholder="Message">
+                                    </div>
+                                    <div class="request-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16.33" height="16.33"
+                                                viewBox="0 0 16.33 16.33" class="svg replaced-svg">
+                                                <g id="btn-icon" transform="translate(-844 -835.102)">
+                                                    <g id="Group_157" data-name="Group 157" transform="translate(847.773 838.876)">
+                                                        <line id="Line_20" data-name="Line 20" y2="8.783"
+                                                            transform="translate(4.392)" fill="none" stroke="#fff" stroke-width="1">
+                                                        </line>
+                                                        <line id="Line_21" data-name="Line 21" x2="8.783"
+                                                            transform="translate(0 4.392)" fill="none" stroke="#fff"
+                                                            stroke-width="1"></line>
+                                                    </g>
+                                                    <g id="btn-icon-2" data-name="btn-icon" transform="translate(844 835.102)"
+                                                        fill="none" stroke="#fff" stroke-width="1">
+                                                        <circle cx="8.165" cy="8.165" r="8.165" stroke="none"></circle>
+                                                        <circle cx="8.165" cy="8.165" r="7.665" fill="none"></circle>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            <span></span>
+                                            <a href="appointment.html">Request Appointment</a>
+                                        </div>
                                 </div>
                            
                             </form>
                          </div>
                          <div class="col-lg-4">
-                             
+                             <div class="request-right">
+                                 <img src="Images/apoint2@2x.png">
+                             </div>
                          </div>
                      </div>
                  </div>

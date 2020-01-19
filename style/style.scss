@@ -1,5 +1,6 @@
 * {
 	font-family: 'Lora', serif;
+	overflow-x: hidden;
 }
 body {
 	margin: 0;
@@ -23,7 +24,6 @@ body {
 	border-bottom: 1px solid rgb(149, 128, 206);
 	.nav-links {
 		display: flex;
-
 		ul {
 			list-style: none;
 			display: flex;
@@ -34,7 +34,6 @@ body {
 				a {
 					color: white;
 					text-decoration: none;
-					padding: 47px 0px;
 					position: relative;
 					transition: all 0.3s ease-in-out;
 					&:hover {
@@ -43,6 +42,9 @@ body {
 					&:hover.before::before {
 						display: block;
 					}
+				}
+				.navbar-link {
+					padding: 50px 0;
 				}
 				.before::before {
 					content: "";
@@ -65,6 +67,7 @@ body {
 						background-color: white;
 						box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 						padding: 15px 0;
+						top: 87px;
 						li {
 							padding: 10px 30px;
 							a {
@@ -260,14 +263,14 @@ body {
 	h1 {
 		font-size: 60px;
 		margin-bottom: 22px;
-		font-family: "Josefin Sans",sans-serif;
+		font-family: "Josefin Sans", sans-serif;
 	}
 	p {
 		margin-bottom: 56px;
 		line-height: 1.7;
 		font-size: 16px;
-	line-height: 1.7;
-	font-weight: 400;
+		line-height: 1.7;
+		font-weight: 400;
 	}
 	.our-services-btn {
 		align-items: center;
@@ -1744,15 +1747,15 @@ footer {
 						color: white;
 						text-decoration: none;
 						transition: .3s linear;
-						&:hover{
-							color:#fc5185 ;
+						&:hover {
+							color: #fc5185;
 						}
 					}
 				}
 			}
 		}
 		.about-img {
-			height: 350px;;
+			height: 350px;
 			text-align: end;
 			img {
 				height: 320px;
@@ -1871,7 +1874,7 @@ footer {
 							animation: spinner-border 80s linear 0s infinite;
 						}
 					}
-					.care-left-img{
+					.care-left-img {
 						padding-top: 80px;
 					}
 				}
@@ -1880,37 +1883,36 @@ footer {
 						transform: rotate(360deg);
 					}
 				}
-				.care-right{
+				.care-right {
 					padding-left: 40px;
-					h2{
+					h2 {
 						font-size: 48px;
-						line-height: 1.15; 
-						font-family: "Josefin Sans",sans-serif;
+						line-height: 1.15;
+						font-family: "Josefin Sans", sans-serif;
 					}
-					p{
-						font-family: Lora,serif;
+					p {
+						font-family: Lora, serif;
 						font-size: 16px;
 						line-height: 1.7;
 						color: #818181;
 					}
-					.video-btn{
+					.video-btn {
 						padding-top: 30px;
-						a{
+						a {
 							transition: .3s linear;
 							text-decoration: none;
 							display: flex;
 							color: rgb(16, 16, 110);
-							&:hover{
-								color:  #fc5185;
+							&:hover {
+								color: #fc5185;
 							}
-							:nth-child(2){
+							:nth-child(2) {
 								padding-left: 10px;
 							}
-							i{
+							i {
 								font-size: 60px;
 							}
 						}
-						
 					}
 				}
 			}
@@ -1918,10 +1920,10 @@ footer {
 	}
 	// We Care For Your Smile End
 
-	.treated{
+	.treated {
 		top: 200px;
 		position: relative;
-		.treated-svg{
+		.treated-svg {
 			position: relative;
 			height: 100vh;
 			.plus-icon1 {
@@ -2012,504 +2014,503 @@ footer {
 					transform: matrix(1, 0, 0, 1, 0, 0);
 				}
 			}
-			.treated-title{
-				h2{
+			.treated-title {
+				h2 {
 					font-size: 48px;
-						text-align: left;
-						line-height: 1.15;
-						font-weight: bold;
-						font-family: "Josefin Sans", sans-serif;
+					text-align: left;
+					line-height: 1.15;
+					font-weight: bold;
+					font-family: "Josefin Sans", sans-serif;
 				}
-					p {
-						font-size: 16px;
-						line-height: 1.7;
-						color: #818181;
-						font-family: 'Lora', serif;
+				p {
+					font-size: 16px;
+					line-height: 1.7;
+					color: #818181;
+					font-family: 'Lora', serif;
+				}
+				.app-btn {
+					display: flex;
+					align-items: center;
+					position: relative;
+					background: #fc5185;
+					height: 60px;
+					width: 220px;
+					top: 50px;
+					svg {
+						margin-left: 32px;
 					}
-					.app-btn {
-						display: flex;
-						align-items: center;
-						position: relative;
-						background: #fc5185;
-						height: 60px;
-						width: 220px;
-						top: 50px;
-						svg {
-							margin-left: 32px;
-						}
-						a {
-							padding-left: 12px;
-							cursor: cell;
-							font-weight: 400;
-							text-decoration: none;
-							color: white;
-						}
-						span {
-							position: absolute;
-							background: #f98faf;
-							width: 0;
-							height: 0;
-							left: 50%;
-							top: 50%;
-							transform: translate(-50%, -50%);
-							transition: 3s linear;
-						}
+					a {
+						padding-left: 12px;
+						cursor: cell;
+						font-weight: 400;
+						text-decoration: none;
+						color: white;
 					}
+					span {
+						position: absolute;
+						background: #f98faf;
+						width: 0;
+						height: 0;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+						transition: 3s linear;
+					}
+				}
 			}
-			.treated-right{
-				.right-box{
+			.treated-right {
+				.right-box {
 					transition: .3s linear;
 					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
 					text-align: center;
 					padding: 70px 30px;
 					margin-bottom: 30px;
-					&:hover{
+					&:hover {
 						background-color: #241194;
-						h2{
+						h2 {
 							color: white;
 						}
-						p{
+						p {
 							color: white;
 						}
 					}
-					h2{
-						font-family: "Josefin Sans",sans-serif;
+					h2 {
+						font-family: "Josefin Sans", sans-serif;
 						font-size: 34px;
 						font-weight: 700;
 						word-wrap: break-word;
 						transition: .3s linear;
 					}
-					p{
+					p {
 						transition: .3s linear;
 						line-height: 1.7;
 						color: #818181;
 					}
 				}
-				.box2{
+				.box2 {
 					top: 60px;
 				}
 			}
 		}
-		
 	}
 	// Patients Say Section Start
-.our-patients {
-	margin-top: 140px;
-	position: relative;
-	.container {
-		.row {
-			position: relative;
-			.patients-circle {
-				position: absolute;
-				svg {
-					max-width: 100%;
-					height: auto;
-					overflow: hidden;
-					vertical-align: middle;
-					animation: spinner-border 80s linear 0s infinite;
-				}
-				@keyframes spinner-border {
-					100% {
-						transform: rotate(360deg);
-					}
-				}
-			}
-
-			.patients-title {
-				text-align: center;
-				h2 {
-					font-size: 40px;
-					line-height: 1.2;
-					font-family: "Josefin Sans", sans-serif;
-				}
-			}
-			.owl-carousel {
-				.item {
-					width: 517px;
-					height: 360px;
-					box-shadow: 0 0 20px rgba(0, 0, 0, .04);
-					margin-top: 10px;
-					margin-bottom: 10px;
-					margin-left: 20px;
-
-					.owl-patients {
-						.row {
-							padding-top: 35px;
-							padding-left: 30px;
-							.col-md-2 {
-								margin-right: 25px;
-								img {
-									border-radius: 50%;
-									width: 95px;
-									height: 95px;
-								}
-							}
-
-							.col-md-6 {
-								top: -15px;
-								p:first-child {
-									font-size: 24px;
-									font-family: "Josefin Sans", sans-serif;
-									font-weight: 700;
-									line-height: 1;
-								}
-								p:nth-child(2) {
-									padding-top: 10px;
-									font-size: 16px;
-									line-height: 1.7;
-									color: #818181;
-									font-family: Lora, serif;
-									margin-top: -25px;
-								}
-							}
-						}
-						.col-md-10 {
-							font-family: Lora, serif;
-							font-size: 16px;
-							line-height: 1.7;
-							color: #818181;
-							padding-left: 60px;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-// Patients Say Section End
-
-// Latest News Section Start
-.latest-news {
-	position: relative;
-	.container {
-		.row {
-			.latest-svg {
-				position: absolute;
-				top: 50%;
-				left: 0;
-				width: 100%;
-
-				.plus-icon1 {
-					left: 60%;
-					top: 15%;
-				}
-
-				.plus-icon {
-					animation: zoomIn 2s infinite alternate;
+	.our-patients {
+		margin-top: 140px;
+		position: relative;
+		.container {
+			.row {
+				position: relative;
+				.patients-circle {
 					position: absolute;
-				}
-				svg {
-					overflow: hidden;
-					vertical-align: middle;
-				}
-				.svg,
-				img {
-					max-width: 100%;
-					height: auto;
-				}
-				.plus-icon2 {
-					right: 10%;
-					top: 25%;
-					animation-delay: 1s;
-				}
-				.plus-icon3 {
-					right: 5%;
-					top: 50%;
-					animation-delay: 2s;
-				}
-				.plus-icon4 {
-					right: 10%;
-					top: 75%;
-					animation-delay: 3s;
-				}
-				.plus-icon5 {
-					left: 5%;
-					top: 50%;
-					animation-delay: 4s;
-				}
-				.plus-icon6 {
-					left: 20%;
-					top: 20%;
-					animation-delay: 5s;
-				}
-				.circle-icon1 {
-					left: 5%;
-					top: 30%;
-					animation-delay: 6s;
-				}
-				.circle-icon {
-					animation: matrix 8s infinite alternate;
-					position: absolute;
-				}
-				.circle-icon2 {
-					left: 40%;
-					bottom: 10%;
-				}
-				@keyframes zoomIn {
-					0% {
-						-webkit-transform: scale(0);
-						transform: scale(0);
+					svg {
+						max-width: 100%;
+						height: auto;
+						overflow: hidden;
+						vertical-align: middle;
+						animation: spinner-border 80s linear 0s infinite;
 					}
-
-					100% {
-						-webkit-transform: scale(1);
-						transform: scale(1);
-					}
-				}
-				@keyframes matrix {
-					0% {
-						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-						transform: matrix(1, 0, 0, 1, 0, 0);
-					}
-					25% {
-						-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
-						transform: matrix(1, 0, 0, 1, 15, 20);
-					}
-					50% {
-						-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
-						transform: matrix(1, 0, 0, 1, -5, 25);
-					}
-					75% {
-						-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
-						transform: matrix(1, 0, 0, 1, -15, 15);
-					}
-					100% {
-						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-						transform: matrix(1, 0, 0, 1, 0, 0);
-					}
-				}
-			}
-			.latest-title {
-				text-align: center;
-				h2 {
-					font-size: 40px;
-					line-height: 1.2;
-					font-family: "Josefin Sans", sans-serif;
-				}
-			}
-			.latest-box {
-				&:hover {
-					.latest-content {
-						background-color: #241194;
-						h3 {
-							a {
-								color: white;
-							}
-						}
-						a {
-							color: white;
+					@keyframes spinner-border {
+						100% {
+							transform: rotate(360deg);
 						}
 					}
 				}
 
-				box-shadow: 18px 7px 45px rgba(0, 0, 0, .04);
-				.latest-img {
-					a {
-						img {
-							width: 100%;
-						}
-					}
-				}
-				.latest-content {
-					padding: 10px 90px 30px 45px;
-					transition: .3s linear;
-					margin-top: -4px;
-					h3 {
-						a {
-							text-decoration: none;
-							color: black;
-							transition: .3s linear;
-							line-height: 1.2;
-							font-family: "Josefin Sans", sans-serif;
-							font-size: 24px;
-						}
-					}
-					a {
-						color: #fc5185;
-						cursor: pointer;
-						font-weight: bold;
-						text-decoration: none;
-						font-size: 16px;
-					}
-				}
-			}
-		}
-	}
-}
-// Latest News Section End
-
-// Drop Up Section Start
-.drop-up {
-	top: 300px;
-	bottom: 200px;
-	position: relative;
-	.container {
-		.row {
-			.drop-up-svg {
-				position: absolute;
-				top: 50%;
-				left: 0;
-				width: 100%;
-
-				.plus-icon1 {
-					left: 60%;
-					top: 15%;
-				}
-
-				.plus-icon {
-					animation: zoomIn 2s infinite alternate;
-					position: absolute;
-				}
-				svg {
-					overflow: hidden;
-					vertical-align: middle;
-				}
-				.svg,
-				img {
-					max-width: 100%;
-					height: auto;
-				}
-				.plus-icon2 {
-					right: 10%;
-					top: 25%;
-					animation-delay: 1s;
-				}
-				.plus-icon3 {
-					right: 5%;
-					top: 50%;
-					animation-delay: 2s;
-				}
-				.plus-icon4 {
-					right: 10%;
-					top: 75%;
-					animation-delay: 3s;
-				}
-				.plus-icon5 {
-					left: 5%;
-					top: 50%;
-					animation-delay: 4s;
-				}
-				.plus-icon6 {
-					left: 20%;
-					top: 20%;
-					animation-delay: 5s;
-				}
-				.circle-icon1 {
-					left: 5%;
-					top: 30%;
-					animation-delay: 6s;
-				}
-				.circle-icon {
-					animation: matrix 8s infinite alternate;
-					position: absolute;
-				}
-				.circle-icon2 {
-					left: 40%;
-					bottom: 10%;
-				}
-				@keyframes zoomIn {
-					0% {
-						-webkit-transform: scale(0);
-						transform: scale(0);
-					}
-
-					100% {
-						-webkit-transform: scale(1);
-						transform: scale(1);
-					}
-				}
-				@keyframes matrix {
-					0% {
-						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-						transform: matrix(1, 0, 0, 1, 0, 0);
-					}
-					25% {
-						-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
-						transform: matrix(1, 0, 0, 1, 15, 20);
-					}
-					50% {
-						-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
-						transform: matrix(1, 0, 0, 1, -5, 25);
-					}
-					75% {
-						-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
-						transform: matrix(1, 0, 0, 1, -15, 15);
-					}
-					100% {
-						-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-						transform: matrix(1, 0, 0, 1, 0, 0);
-					}
-				}
-			}
-			.dropup-right {
-				margin-top: -140px;
-				.dropup-title {
-					margin-bottom: 50px;
+				.patients-title {
+					text-align: center;
 					h2 {
 						font-size: 40px;
 						line-height: 1.2;
 						font-family: "Josefin Sans", sans-serif;
 					}
 				}
-				.drop-up-form {
-					input {
-						width: 100%;
-						border: none;
-						box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
-					}
-					input::placeholder {
-						font-size: 15px;
-						font-family: 'Lora', serif;
-					}
-					.input-name {
-						margin-bottom: 30px;
-						input {
-							padding: 25px;
+				.owl-carousel {
+					.item {
+						width: 517px;
+						height: 360px;
+						box-shadow: 0 0 20px rgba(0, 0, 0, .04);
+						margin-top: 10px;
+						margin-bottom: 10px;
+						margin-left: 20px;
+
+						.owl-patients {
+							.row {
+								padding-top: 35px;
+								padding-left: 30px;
+								.col-md-2 {
+									margin-right: 25px;
+									img {
+										border-radius: 50%;
+										width: 95px;
+										height: 95px;
+									}
+								}
+
+								.col-md-6 {
+									top: -15px;
+									p:first-child {
+										font-size: 24px;
+										font-family: "Josefin Sans", sans-serif;
+										font-weight: 700;
+										line-height: 1;
+									}
+									p:nth-child(2) {
+										padding-top: 10px;
+										font-size: 16px;
+										line-height: 1.7;
+										color: #818181;
+										font-family: Lora, serif;
+										margin-top: -25px;
+									}
+								}
+							}
+							.col-md-10 {
+								font-family: Lora, serif;
+								font-size: 16px;
+								line-height: 1.7;
+								color: #818181;
+								padding-left: 60px;
+							}
 						}
-					}
-					.input-email {
-						margin-bottom: 30px;
-						input {
-							padding: 25px;
-						}
-					}
-					.input-subject {
-						margin-bottom: 30px;
-						padding: 25px;
-					}
-					.input-text {
-						height: 200px;
-						width: 543px;
-						border: none;
-						box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
-						padding: 20px;
-						margin-bottom: 45px;
-					}
-					textarea::placeholder {
-						font-size: 15px;
-						font-family: 'Lora', serif;
-					}
-					a {
-						cursor: pointer;
-						text-decoration: none;
-						color: white;
-						background-color: #fc5185;
-						padding: 15px 30px;
-						font-size: 16px;
-						font-family: Lora, serif;
-						transition: .3s linear;
 					}
 				}
 			}
 		}
 	}
-}
-// Drop Up Section End
+
+	// Patients Say Section End
+
+	// Latest News Section Start
+	.latest-news {
+		position: relative;
+		.container {
+			.row {
+				.latest-svg {
+					position: absolute;
+					top: 50%;
+					left: 0;
+					width: 100%;
+
+					.plus-icon1 {
+						left: 60%;
+						top: 15%;
+					}
+
+					.plus-icon {
+						animation: zoomIn 2s infinite alternate;
+						position: absolute;
+					}
+					svg {
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.svg,
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+					.plus-icon2 {
+						right: 10%;
+						top: 25%;
+						animation-delay: 1s;
+					}
+					.plus-icon3 {
+						right: 5%;
+						top: 50%;
+						animation-delay: 2s;
+					}
+					.plus-icon4 {
+						right: 10%;
+						top: 75%;
+						animation-delay: 3s;
+					}
+					.plus-icon5 {
+						left: 5%;
+						top: 50%;
+						animation-delay: 4s;
+					}
+					.plus-icon6 {
+						left: 20%;
+						top: 20%;
+						animation-delay: 5s;
+					}
+					.circle-icon1 {
+						left: 5%;
+						top: 30%;
+						animation-delay: 6s;
+					}
+					.circle-icon {
+						animation: matrix 8s infinite alternate;
+						position: absolute;
+					}
+					.circle-icon2 {
+						left: 40%;
+						bottom: 10%;
+					}
+					@keyframes zoomIn {
+						0% {
+							-webkit-transform: scale(0);
+							transform: scale(0);
+						}
+
+						100% {
+							-webkit-transform: scale(1);
+							transform: scale(1);
+						}
+					}
+					@keyframes matrix {
+						0% {
+							-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+							transform: matrix(1, 0, 0, 1, 0, 0);
+						}
+						25% {
+							-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+							transform: matrix(1, 0, 0, 1, 15, 20);
+						}
+						50% {
+							-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+							transform: matrix(1, 0, 0, 1, -5, 25);
+						}
+						75% {
+							-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+							transform: matrix(1, 0, 0, 1, -15, 15);
+						}
+						100% {
+							-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+							transform: matrix(1, 0, 0, 1, 0, 0);
+						}
+					}
+				}
+				.latest-title {
+					text-align: center;
+					h2 {
+						font-size: 40px;
+						line-height: 1.2;
+						font-family: "Josefin Sans", sans-serif;
+					}
+				}
+				.latest-box {
+					&:hover {
+						.latest-content {
+							background-color: #241194;
+							h3 {
+								a {
+									color: white;
+								}
+							}
+							a {
+								color: white;
+							}
+						}
+					}
+
+					box-shadow: 18px 7px 45px rgba(0, 0, 0, .04);
+					.latest-img {
+						a {
+							img {
+								width: 100%;
+							}
+						}
+					}
+					.latest-content {
+						padding: 10px 90px 30px 45px;
+						transition: .3s linear;
+						margin-top: -4px;
+						h3 {
+							a {
+								text-decoration: none;
+								color: black;
+								transition: .3s linear;
+								line-height: 1.2;
+								font-family: "Josefin Sans", sans-serif;
+								font-size: 24px;
+							}
+						}
+						a {
+							color: #fc5185;
+							cursor: pointer;
+							font-weight: bold;
+							text-decoration: none;
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// Latest News Section End
+
+	// Drop Up Section Start
+	.drop-up {
+		top: 300px;
+		bottom: 200px;
+		position: relative;
+		.container {
+			.row {
+				.drop-up-svg {
+					position: absolute;
+					top: 50%;
+					left: 0;
+					width: 100%;
+
+					.plus-icon1 {
+						left: 60%;
+						top: 15%;
+					}
+
+					.plus-icon {
+						animation: zoomIn 2s infinite alternate;
+						position: absolute;
+					}
+					svg {
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.svg,
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+					.plus-icon2 {
+						right: 10%;
+						top: 25%;
+						animation-delay: 1s;
+					}
+					.plus-icon3 {
+						right: 5%;
+						top: 50%;
+						animation-delay: 2s;
+					}
+					.plus-icon4 {
+						right: 10%;
+						top: 75%;
+						animation-delay: 3s;
+					}
+					.plus-icon5 {
+						left: 5%;
+						top: 50%;
+						animation-delay: 4s;
+					}
+					.plus-icon6 {
+						left: 20%;
+						top: 20%;
+						animation-delay: 5s;
+					}
+					.circle-icon1 {
+						left: 5%;
+						top: 30%;
+						animation-delay: 6s;
+					}
+					.circle-icon {
+						animation: matrix 8s infinite alternate;
+						position: absolute;
+					}
+					.circle-icon2 {
+						left: 40%;
+						bottom: 10%;
+					}
+					@keyframes zoomIn {
+						0% {
+							-webkit-transform: scale(0);
+							transform: scale(0);
+						}
+
+						100% {
+							-webkit-transform: scale(1);
+							transform: scale(1);
+						}
+					}
+					@keyframes matrix {
+						0% {
+							-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+							transform: matrix(1, 0, 0, 1, 0, 0);
+						}
+						25% {
+							-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+							transform: matrix(1, 0, 0, 1, 15, 20);
+						}
+						50% {
+							-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+							transform: matrix(1, 0, 0, 1, -5, 25);
+						}
+						75% {
+							-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+							transform: matrix(1, 0, 0, 1, -15, 15);
+						}
+						100% {
+							-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+							transform: matrix(1, 0, 0, 1, 0, 0);
+						}
+					}
+				}
+				.dropup-right {
+					margin-top: -140px;
+					.dropup-title {
+						margin-bottom: 50px;
+						h2 {
+							font-size: 40px;
+							line-height: 1.2;
+							font-family: "Josefin Sans", sans-serif;
+						}
+					}
+					.drop-up-form {
+						input {
+							width: 100%;
+							border: none;
+							box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+						}
+						input::placeholder {
+							font-size: 15px;
+							font-family: 'Lora', serif;
+						}
+						.input-name {
+							margin-bottom: 30px;
+							input {
+								padding: 25px;
+							}
+						}
+						.input-email {
+							margin-bottom: 30px;
+							input {
+								padding: 25px;
+							}
+						}
+						.input-subject {
+							margin-bottom: 30px;
+							padding: 25px;
+						}
+						.input-text {
+							height: 200px;
+							width: 543px;
+							border: none;
+							box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+							padding: 20px;
+							margin-bottom: 45px;
+						}
+						textarea::placeholder {
+							font-size: 15px;
+							font-family: 'Lora', serif;
+						}
+						a {
+							cursor: pointer;
+							text-decoration: none;
+							color: white;
+							background-color: #fc5185;
+							padding: 15px 30px;
+							font-size: 16px;
+							font-family: Lora, serif;
+							transition: .3s linear;
+						}
+					}
+				}
+			}
+		}
+	}
+	// Drop Up Section End
 }
 
 // Doctors Page
-#doctors{
+#doctors {
 	// Doctors Section Start
 	.dentist {
 		padding-top: 60px;
@@ -2634,15 +2635,15 @@ footer {
 						color: white;
 						text-decoration: none;
 						transition: .3s linear;
-						&:hover{
-							color:#fc5185 ;
+						&:hover {
+							color: #fc5185;
 						}
 					}
 				}
 			}
 		}
 		.about-img {
-			height: 350px;;
+			height: 350px;
 			text-align: end;
 			img {
 				height: 320px;
@@ -2652,10 +2653,10 @@ footer {
 	// Doctors Section End
 
 	// Dentist Images Start
-	.dentist-images{
+	.dentist-images {
 		position: relative;
 		top: 100px;
-		.dent-svg{
+		.dent-svg {
 			.plus-icon1 {
 				left: 60%;
 				top: 15%;
@@ -2746,71 +2747,154 @@ footer {
 				}
 			}
 		}
-		.round-box{
-			.doc-text{
+		.round-box {
+			.doc-text {
 				text-align: center;
-				h3{
-
-					a{
+				h3 {
+					a {
 						text-decoration: none;
 						color: black;
 						transition: .3s linear;
-						&:hover{
-							color:#fc5185;
+						&:hover {
+							color: #fc5185;
 						}
 					}
 				}
-				p{
+				p {
 					font-size: 16px;
 					line-height: 1.7;
 					color: #818181;
 					margin-top: -12px;
 				}
-			}			
+			}
 		}
-		.pagination{
-				display: flex;
-				justify-content: center;
-				list-style: none;
-				li{
-					&:hover{
-						background-color: #241194;
+		.pagination {
+			display: flex;
+			justify-content: center;
+			list-style: none;
+			li {
+				&:hover {
+					background-color: #241194;
+					color: white;
+				}
+				padding: 20px 10px;
+				&:nth-child(3) {
+					background-color: #241194;
+					a {
 						color: white;
 					}
-					padding: 20px 10px;
-					&:nth-child(3){
-						background-color: #241194;
-						a{
-							color: white;
-						}
-					}
-					
-					a{
-						text-decoration: none;
-						box-shadow: 10px 7px 45px rgba(0,0,0,.04);
-						color:#241194;
-						padding: 15px;
-						transition: 3s linear;
-						font-family: "Josefin Sans",sans-serif;
-						font-size: 16px;
-						
-					}
-					
 				}
+
+				a {
+					text-decoration: none;
+					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					color: #241194;
+					padding: 15px;
+					transition: 3s linear;
+					font-family: "Josefin Sans", sans-serif;
+					font-size: 16px;
+				}
+			}
 		}
 	}
 	// Dentist Images End
 
 	// Request Appointment Section Start
-	.request{
+	.request {
 		margin-top: 150px;
-		.request-title{
-			h2{
+		.request-title {
+			h2 {
 				font-size: 40px;
 				line-height: 1.2;
-				font-family: "Josefin Sans",sans-serif;
+				font-family: "Josefin Sans", sans-serif;
+			}
+		}
+		.request-form {
+			.col-md-6 {
+				width: 50%;
+
+				input {
+					height: 70px;
+					width: 100%;
+					padding: 0 20px;
+					font-size: 16px;
+					margin-bottom: 30px;
+					border: none;
+					background-color: white;
+					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+				}
+			}
+			.select {
+				.regarding {
+					height: 70px;
+					width: 100%;
+					padding: 0 20px;
+					font-size: 16px;
+					margin-bottom: 30px;
+					border: none;
+					background-color: white;
+					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					&:hover {
+						cursor: pointer;
+					}
+					color: #818181;
+				}
+			}
+			.subject {
+				:nth-child(1) {
+					height: 70px;
+					width: 100%;
+					border: none;
+					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					font-size: 16px;
+					margin-bottom: 30px;
+					padding: 0 20px;
+				}
+				:nth-child(2) {
+					width: 100%;
+					border: none;
+					box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+					font-size: 16px;
+					height: 220px;
+					padding: 20px 20px 200px;
+				}
+			}
+		}
+		.request-btn {
+			display: flex;
+			align-items: center;
+			position: relative;
+			background: #fc5185;
+			height: 60px;
+			width: 250px;
+			top: 50px;
+			svg {
+				margin-left: 32px;
+			}
+			a {
+				padding-left: 12px;
+				cursor: cell;
+				font-weight: 400;
+				text-decoration: none;
+				color: white;
+			}
+			span {
+				position: absolute;
+				background: #f98faf;
+				width: 0;
+				height: 0;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				transition: 3s linear;
+			}
+		}
+		.request-right {
+			img {
+				width: 100%;
 			}
 		}
 	}
-	// Request Appointment Section Start
+	// Request Appointment Section End
+	
 }

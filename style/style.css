@@ -1,5 +1,6 @@
 * {
   font-family: 'Lora', serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -51,7 +52,6 @@ body {
 .header .nav-links ul li a {
   color: white;
   text-decoration: none;
-  padding: 47px 0px;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -63,6 +63,10 @@ body {
 
 .header .nav-links ul li a:hover.before::before {
   display: block;
+}
+
+.header .nav-links ul li .navbar-link {
+  padding: 50px 0;
 }
 
 .header .nav-links ul li .before::before {
@@ -90,6 +94,7 @@ body {
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 15px 0;
+  top: 87px;
 }
 
 .header .nav-links ul li .dropdown-menu ul li {
@@ -358,7 +363,7 @@ body {
 .pro-dental-txt h1 {
   font-size: 60px;
   margin-bottom: 22px;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .pro-dental-txt p {
@@ -2315,11 +2320,11 @@ footer .footer .footer-bottom .copy p a:hover {
 #page-about .we-care .wecare-svg .row .care-right h2 {
   font-size: 48px;
   line-height: 1.15;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #page-about .we-care .wecare-svg .row .care-right p {
-  font-family: Lora,serif;
+  font-family: Lora, serif;
   font-size: 16px;
   line-height: 1.7;
   color: #818181;
@@ -2547,7 +2552,7 @@ footer .footer .footer-bottom .copy p a:hover {
 }
 
 #page-about .treated .treated-svg .treated-right .right-box h2 {
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 34px;
   font-weight: 700;
   word-wrap: break-word;
@@ -3402,7 +3407,7 @@ footer .footer .footer-bottom .copy p a:hover {
   padding: 15px;
   -webkit-transition: 3s linear;
   transition: 3s linear;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -3413,6 +3418,103 @@ footer .footer .footer-bottom .copy p a:hover {
 #doctors .request .request-title h2 {
   font-size: 40px;
   line-height: 1.2;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#doctors .request .request-form .col-md-6 {
+  width: 50%;
+}
+
+#doctors .request .request-form .col-md-6 input {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+#doctors .request .request-form .select .regarding {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  color: #818181;
+}
+
+#doctors .request .request-form .select .regarding:hover {
+  cursor: pointer;
+}
+
+#doctors .request .request-form .subject :nth-child(1) {
+  height: 70px;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+#doctors .request .request-form .subject :nth-child(2) {
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  font-size: 16px;
+  height: 220px;
+  padding: 20px 20px 200px;
+}
+
+#doctors .request .request-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #fc5185;
+  height: 60px;
+  width: 250px;
+  top: 50px;
+}
+
+#doctors .request .request-btn svg {
+  margin-left: 32px;
+}
+
+#doctors .request .request-btn a {
+  padding-left: 12px;
+  cursor: cell;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#doctors .request .request-btn span {
+  position: absolute;
+  background: #f98faf;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 3s linear;
+  transition: 3s linear;
+}
+
+#doctors .request .request-right img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
