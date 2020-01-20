@@ -1,6 +1,5 @@
 * {
   font-family: 'Lora', serif;
-  overflow-x: hidden;
 }
 
 body {
@@ -1875,7 +1874,7 @@ body {
 footer {
   color: white;
   position: relative;
-  top: 500px;
+  top: 100px;
 }
 
 footer .footer {
@@ -2843,6 +2842,7 @@ footer .footer .footer-bottom .copy p a:hover {
   top: 300px;
   bottom: 200px;
   position: relative;
+  margin-bottom: 230px;
 }
 
 #page-about .drop-up .container .row .drop-up-svg {
@@ -3515,6 +3515,395 @@ footer .footer .footer-bottom .copy p a:hover {
 }
 
 #doctors .request .request-right img {
+  width: 100%;
+}
+
+#doctor-details .dentist {
+  padding-top: 60px;
+  height: 100%;
+  background-color: #241194;
+  position: relative;
+  width: 100%;
+}
+
+#doctor-details .dentist .about-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#doctor-details .dentist .about-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#doctor-details .dentist .about-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#doctor-details .dentist .about-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#doctor-details .dentist .about-svg .svg,
+#doctor-details .dentist .about-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#doctor-details .dentist .about-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#doctor-details .dentist .about-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#doctor-details .dentist .about-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#doctor-details .dentist .about-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#doctor-details .dentist .about-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#doctor-details .dentist .about-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#doctor-details .dentist .about-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#doctor-details .dentist .about-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#doctor-details .dentist .about-title {
+  color: white;
+  margin-top: 100px;
+}
+
+#doctor-details .dentist .about-title h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+#doctor-details .dentist .about-title ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lora, serif;
+  padding-left: 0;
+}
+
+#doctor-details .dentist .about-title ul li {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+#doctor-details .dentist .about-title ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#doctor-details .dentist .about-title ul li a:hover {
+  color: #fc5185;
+}
+
+#doctor-details .dentist .about-img {
+  height: 350px;
+  text-align: end;
+}
+
+#doctor-details .dentist .about-img img {
+  height: 320px;
+}
+
+#doctor-details .practice {
+  margin-top: 100px;
+}
+
+#doctor-details .practice .rebecca .rebecca-text {
+  margin-top: 90px;
+}
+
+#doctor-details .practice .rebecca .rebecca-text .rebecca-title h2 {
+  font-size: 48px;
+  font-family: "Josefin Sans",sans-serif;
+  line-height: 1.15;
+  margin-bottom: 5px;
+}
+
+#doctor-details .practice .rebecca .rebecca-text .rebecca-title span {
+  margin-top: 5px;
+  font-size: 24px;
+  font-family: Lora,serif;
+  color: #818181;
+}
+
+#doctor-details .practice .rebecca .rebecca-text p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: Lora,serif;
+  color: #818181;
+  line-height: 1.7;
+}
+
+#doctor-details .practice .rebecca .rebecca-text .icons a {
+  background-color: #241194;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 14px;
+  padding: 10px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#doctor-details .practice .rebecca .rebecca-text .icons a:hover {
+  background-color: #f98faf;
+}
+
+#doctor-details .practice .education .education-content .education-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+#doctor-details .practice .education .education-content .content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#doctor-details .practice .education .education-content .content .title h3 {
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 24px;
+}
+
+#doctor-details .practice .education .education-content .content .title p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Lora,serif;
+  color: #818181;
+  font-size: 16px;
+}
+
+#doctor-details .practice .education .education-content .content span, #doctor-details .practice .education .education-content .content p {
+  font-family: Lora,serif;
+  color: #818181;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#doctor-details .practice .education .education-img {
+  padding-top: 60px;
+}
+
+#doctor-details .practice .experience {
+  margin-top: 100px;
+}
+
+#doctor-details .practice .experience .experience-right {
+  margin-top: -92px;
+}
+
+#doctor-details .practice .experience .experience-right .experience-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+#doctor-details .practice .experience .experience-right .dent-content h3 {
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 24px;
+}
+
+#doctor-details .practice .experience .experience-right .dent-content p {
+  font-family: Lora,serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+}
+
+#doctor-details .request {
+  margin-top: 150px;
+}
+
+#doctor-details .request .request-title h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#doctor-details .request .request-form .col-md-6 {
+  width: 50%;
+}
+
+#doctor-details .request .request-form .col-md-6 input {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+#doctor-details .request .request-form .select .regarding {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  color: #818181;
+}
+
+#doctor-details .request .request-form .select .regarding:hover {
+  cursor: pointer;
+}
+
+#doctor-details .request .request-form .subject :nth-child(1) {
+  height: 70px;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+#doctor-details .request .request-form .subject :nth-child(2) {
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  font-size: 16px;
+  height: 220px;
+  padding: 20px 20px 200px;
+}
+
+#doctor-details .request .request-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #fc5185;
+  height: 60px;
+  width: 250px;
+  top: 50px;
+}
+
+#doctor-details .request .request-btn svg {
+  margin-left: 32px;
+}
+
+#doctor-details .request .request-btn a {
+  padding-left: 12px;
+  cursor: cell;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#doctor-details .request .request-btn span {
+  position: absolute;
+  background: #f98faf;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 3s linear;
+  transition: 3s linear;
+}
+
+#doctor-details .request .request-right img {
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

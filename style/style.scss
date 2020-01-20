@@ -1,6 +1,5 @@
 * {
 	font-family: 'Lora', serif;
-	overflow-x: hidden;
 }
 body {
 	margin: 0;
@@ -1518,7 +1517,7 @@ body {
 footer {
 	color: white;
 	position: relative;
-	top: 500px;
+	top: 100px;
 	.footer {
 		padding-top: 50px;
 		background-color: #241194;
@@ -2345,6 +2344,7 @@ footer {
 		top: 300px;
 		bottom: 200px;
 		position: relative;
+		margin-bottom: 230px;
 		.container {
 			.row {
 				.drop-up-svg {
@@ -2661,7 +2661,6 @@ footer {
 				left: 60%;
 				top: 15%;
 			}
-
 			.plus-icon {
 				animation: zoomIn 2s infinite alternate;
 				position: absolute;
@@ -2898,3 +2897,360 @@ footer {
 	// Request Appointment Section End
 	
 }
+// Doctor Details Page Start
+#doctor-details{
+	// Dentist Section Start
+	.dentist {
+		padding-top: 60px;
+		height: 100%;
+		background-color: #241194;
+		position: relative;
+		width: 100%;
+		.about-svg {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			.plus-icon1 {
+				left: 60%;
+				top: 15%;
+			}
+
+			.plus-icon {
+				animation: zoomIn 2s infinite alternate;
+				position: absolute;
+			}
+			svg {
+				overflow: hidden;
+				vertical-align: middle;
+			}
+			.svg,
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.plus-icon2 {
+				right: 10%;
+				top: 25%;
+				animation-delay: 1s;
+			}
+			.plus-icon3 {
+				right: 5%;
+				top: 50%;
+				animation-delay: 2s;
+			}
+			.plus-icon4 {
+				right: 10%;
+				top: 75%;
+				animation-delay: 3s;
+			}
+			.plus-icon5 {
+				left: 5%;
+				top: 50%;
+				animation-delay: 4s;
+			}
+			.plus-icon6 {
+				left: 20%;
+				top: 20%;
+				animation-delay: 5s;
+			}
+			.circle-icon1 {
+				left: 5%;
+				top: 30%;
+				animation-delay: 6s;
+			}
+			.circle-icon {
+				animation: matrix 8s infinite alternate;
+				position: absolute;
+			}
+			.circle-icon2 {
+				left: 40%;
+				bottom: 10%;
+			}
+			@keyframes zoomIn {
+				0% {
+					-webkit-transform: scale(0);
+					transform: scale(0);
+				}
+
+				100% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			@keyframes matrix {
+				0% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+				25% {
+					-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+					transform: matrix(1, 0, 0, 1, 15, 20);
+				}
+				50% {
+					-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+					transform: matrix(1, 0, 0, 1, -5, 25);
+				}
+				75% {
+					-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+					transform: matrix(1, 0, 0, 1, -15, 15);
+				}
+				100% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+			}
+		}
+		.about-title {
+			color: white;
+			margin-top: 100px;
+			h2 {
+				font-size: 48px;
+				line-height: 1.3;
+				font-family: "Josefin Sans", sans-serif;
+				font-weight: 700;
+				margin-bottom: -15px;
+			}
+			ul {
+				list-style: none;
+				display: flex;
+				font-family: Lora, serif;
+				padding-left: 0;
+				li {
+					line-height: 1.7;
+					font-size: 18px;
+					a {
+						color: white;
+						text-decoration: none;
+						transition: .3s linear;
+						&:hover {
+							color: #fc5185;
+						}
+					}
+				}
+			}
+		}
+		.about-img {
+			height: 350px;
+			text-align: end;
+			img {
+				height: 320px;
+			}
+		}
+	}
+// Dentist Section End
+
+// Practice Section Start
+.practice{
+	margin-top: 100px;
+	.rebecca{
+		.rebecca-text{
+			margin-top: 90px;
+			.rebecca-title{
+				h2{
+					font-size: 48px;
+					font-family: "Josefin Sans",sans-serif;
+					line-height: 1.15;
+					margin-bottom: 5px;
+				}
+				span{
+					margin-top: 5px;
+					font-size: 24px;
+					font-family: Lora,serif;
+					color: #818181;
+				}
+			}
+			p{
+				margin-top: 40px;
+				font-size: 16px;
+				font-family: Lora,serif;
+				color: #818181;
+				line-height: 1.7;
+			}
+			.icons{
+				a{
+					background-color: #241194;
+					color: white;
+					width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		margin-right: 5px;
+		font-size: 14px;
+		padding: 10px;
+		transition: .3s linear;
+		&:hover{
+			background-color: #f98faf;
+			
+		}
+				}
+			}
+		}
+		
+		
+	}
+	.education{
+		.education-content{
+			.education-title{
+				h2{
+					font-size: 40px;
+					line-height: 1.2;
+					font-family: "Josefin Sans",sans-serif;
+				}
+			}
+			.content{
+				.title{
+					display: flex;
+					flex-wrap: wrap;
+					h3{
+						font-family: "Josefin Sans",sans-serif;
+						font-size: 24px;
+					}
+					p{
+						padding-left: 10px;
+						padding-top: 10px;
+						font-family: Lora,serif;
+						color: #818181;
+						font-size: 16px;
+					}
+				}
+				span,p{
+					    font-family: Lora,serif;
+						color: #818181;
+						font-size: 16px;
+						line-height: 1.7;
+				}
+				
+			}
+		}
+		.education-img{
+			padding-top: 60px;
+		}
+	}
+	.experience{
+		margin-top: 100px;
+		.experience-right{
+			margin-top: -92px;
+			.experience-title{
+				h2{
+					font-size: 40px;
+					line-height: 1.2;
+					font-family: "Josefin Sans",sans-serif;
+				}
+			}
+			.dent-content{
+				h3{
+					font-family: "Josefin Sans",sans-serif;
+					font-size: 24px;
+				}
+				p{
+					font-family: Lora,serif;
+					font-size: 16px;
+			line-height: 1.7;
+			color: #818181;
+				}
+			}
+		}
+		
+	}
+}
+// Practice Section End
+
+// Request Appointment Section Start
+.request {
+	margin-top: 150px;
+	.request-title {
+		h2 {
+			font-size: 40px;
+			line-height: 1.2;
+			font-family: "Josefin Sans", sans-serif;
+		}
+	}
+	.request-form {
+		.col-md-6 {
+			width: 50%;
+
+			input {
+				height: 70px;
+				width: 100%;
+				padding: 0 20px;
+				font-size: 16px;
+				margin-bottom: 30px;
+				border: none;
+				background-color: white;
+				box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+			}
+		}
+		.select {
+			.regarding {
+				height: 70px;
+				width: 100%;
+				padding: 0 20px;
+				font-size: 16px;
+				margin-bottom: 30px;
+				border: none;
+				background-color: white;
+				box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+				&:hover {
+					cursor: pointer;
+				}
+				color: #818181;
+			}
+		}
+		.subject {
+			:nth-child(1) {
+				height: 70px;
+				width: 100%;
+				border: none;
+				box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+				font-size: 16px;
+				margin-bottom: 30px;
+				padding: 0 20px;
+			}
+			:nth-child(2) {
+				width: 100%;
+				border: none;
+				box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+				font-size: 16px;
+				height: 220px;
+				padding: 20px 20px 200px;
+			}
+		}
+	}
+	.request-btn {
+		display: flex;
+		align-items: center;
+		position: relative;
+		background: #fc5185;
+		height: 60px;
+		width: 250px;
+		top: 50px;
+		svg {
+			margin-left: 32px;
+		}
+		a {
+			padding-left: 12px;
+			cursor: cell;
+			font-weight: 400;
+			text-decoration: none;
+			color: white;
+		}
+		span {
+			position: absolute;
+			background: #f98faf;
+			width: 0;
+			height: 0;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			transition: 3s linear;
+		}
+	}
+	.request-right {
+		img {
+			width: 100%;
+		}
+	}
+}
+// Request Appointment Section End
+}
+// Doctor Details Page End
