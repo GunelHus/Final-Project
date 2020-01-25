@@ -1221,7 +1221,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.discount .container .row .discount-left .discount-btn {
+.discount .container .row .discount-left .error-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1235,11 +1235,11 @@ body {
   top: 50px;
 }
 
-.discount .container .row .discount-left .discount-btn svg {
+.discount .container .row .discount-left .error-btn svg {
   margin-left: 32px;
 }
 
-.discount .container .row .discount-left .discount-btn a {
+.discount .container .row .discount-left .error-btn a {
   padding-left: 12px;
   cursor: cell;
   font-weight: 400;
@@ -1247,7 +1247,7 @@ body {
   color: white;
 }
 
-.discount .container .row .discount-left .discount-btn span {
+.discount .container .row .discount-left .error-btn span {
   position: absolute;
   background: #f98faf;
   width: 0;
@@ -5563,87 +5563,88 @@ footer .footer .footer-bottom .copy p a:hover {
 }
 
 #comingsoon .soon {
+  width: 100%;
   position: relative;
 }
 
-#comingsoon .soon .our-best-svg {
+#comingsoon .soon .about-svg {
   position: absolute;
   top: 50%;
   left: 0;
   width: 100%;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon1 {
+#comingsoon .soon .about-svg .plus-icon1 {
   left: 60%;
   top: 15%;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon {
+#comingsoon .soon .about-svg .plus-icon {
   -webkit-animation: zoomIn 2s infinite alternate;
           animation: zoomIn 2s infinite alternate;
   position: absolute;
 }
 
-#comingsoon .soon .our-best-svg svg {
+#comingsoon .soon .about-svg svg {
   overflow: hidden;
   vertical-align: middle;
 }
 
-#comingsoon .soon .our-best-svg .svg,
-#comingsoon .soon .our-best-svg img {
+#comingsoon .soon .about-svg .svg,
+#comingsoon .soon .about-svg img {
   max-width: 100%;
   height: auto;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon2 {
+#comingsoon .soon .about-svg .plus-icon2 {
   right: 10%;
   top: 25%;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon3 {
+#comingsoon .soon .about-svg .plus-icon3 {
   right: 5%;
   top: 50%;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon4 {
+#comingsoon .soon .about-svg .plus-icon4 {
   right: 10%;
   top: 75%;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon5 {
+#comingsoon .soon .about-svg .plus-icon5 {
   left: 5%;
   top: 50%;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
 
-#comingsoon .soon .our-best-svg .plus-icon6 {
+#comingsoon .soon .about-svg .plus-icon6 {
   left: 20%;
   top: 20%;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 
-#comingsoon .soon .our-best-svg .circle-icon1 {
+#comingsoon .soon .about-svg .circle-icon1 {
   left: 5%;
   top: 30%;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
-#comingsoon .soon .our-best-svg .circle-icon {
+#comingsoon .soon .about-svg .circle-icon {
   -webkit-animation: matrix 8s infinite alternate;
           animation: matrix 8s infinite alternate;
   position: absolute;
 }
 
-#comingsoon .soon .our-best-svg .circle-icon2 {
+#comingsoon .soon .about-svg .circle-icon2 {
   left: 40%;
   bottom: 10%;
 }
@@ -5695,9 +5696,26 @@ footer .footer .footer-bottom .copy p a:hover {
   top: 100px;
 }
 
+#comingsoon .soon .container .row .our-best-left .soon-input input {
+  padding: 24px 88px;
+  font-size: 15px;
+}
+
+#comingsoon .soon .container .row .our-best-left .soon-input button {
+  padding: 27px 40px;
+  margin-left: -6px;
+  background-color: #fc5185;
+  border: none;
+}
+
+#comingsoon .soon .container .row .our-best-left .soon-input button i {
+  color: white;
+  font-size: 15px;
+}
+
 #comingsoon .soon .container .row .our-best-left .our-best-title h2 {
   color: white;
-  font-size: 48px;
+  font-size: 60px;
   text-align: left;
   line-height: 1.15;
   font-weight: bold;
@@ -5779,5 +5797,377 @@ footer .footer .footer-bottom .copy p a:hover {
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   margin-top: -41px;
+}
+
+#error {
+  background-color: #241194;
+}
+
+#error .error {
+  position: relative;
+}
+
+#error .error .error-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#error .error .error-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#error .error .error-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#error .error .error-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#error .error .error-svg .svg,
+#error .error .error-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#error .error .error-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#error .error .error-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#error .error .error-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#error .error .error-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#error .error .error-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#error .error .error-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#error .error .error-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#error .error .error-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#error .error .notfound {
+  top: 150px;
+}
+
+#error .error .notfound .error-title h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+#error .error .notfound .error-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #fc5185;
+  height: 60px;
+  width: 220px;
+  top: 50px;
+}
+
+#error .error .notfound .error-btn svg {
+  margin-left: 32px;
+}
+
+#error .error .notfound .error-btn a {
+  padding-left: 12px;
+  cursor: cell;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#error .error .notfound .error-btn span {
+  position: absolute;
+  background: #f98faf;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 3s linear;
+  transition: 3s linear;
+}
+
+#error .error .dent-img {
+  top: 150px;
+  padding-left: 123px;
+}
+
+#login .login {
+  padding-top: 60px;
+  height: 100%;
+  background-color: #241194;
+  position: relative;
+  width: 100%;
+}
+
+#login .login .login-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#login .login .login-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#login .login .login-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#login .login .login-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#login .login .login-svg .svg,
+#login .login .login-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#login .login .login-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#login .login .login-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#login .login .login-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#login .login .login-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#login .login .login-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#login .login .login-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#login .login .login-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#login .login .login-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#login .login .login-title {
+  color: white;
+  margin-top: 100px;
+}
+
+#login .login .login-title h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+#login .login .login-title ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lora, serif;
+  padding-left: 0;
+}
+
+#login .login .login-title ul li {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+#login .login .login-title ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#login .login .login-title ul li a:hover {
+  color: #fc5185;
+}
+
+#login .login .login-img {
+  height: 350px;
+  text-align: end;
+}
+
+#login .login .login-img img {
+  height: 320px;
+}
+
+#login .login-form {
+  margin-top: 50px;
+}
+
+#login .login-form .col-md-6 input {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+}
+
+#login .login-form .checkbox label input {
+  height: 15px !important;
+  width: 50%;
+  padding: 5px 7px !important;
 }
 /*# sourceMappingURL=style.css.map */
