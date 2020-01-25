@@ -100,10 +100,20 @@ body {
   padding: 10px 30px;
 }
 
+.header .nav-links ul li .dropdown-menu ul li:hover {
+  background-color: #fc5185;
+}
+
 .header .nav-links ul li .dropdown-menu ul li a {
   font-size: 16px;
   color: #818181;
   cursor: pointer;
+  -webkit-transition: 0 !important;
+  transition: 0 !important;
+}
+
+.header .nav-links ul li .dropdown-menu ul li a:hover {
+  color: white !important;
 }
 
 .header .nav-links ul li:hover .dropdown-menu {
@@ -5274,5 +5284,248 @@ footer .footer .footer-bottom .copy p a:hover {
 
 #newpatient .dentist .about-img img {
   height: 320px;
+}
+
+#newpatient .our-best-spec {
+  position: relative;
+}
+
+#newpatient .our-best-spec .our-best-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#newpatient .our-best-spec .our-best-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#newpatient .our-best-spec .our-best-svg .svg,
+#newpatient .our-best-spec .our-best-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#newpatient .our-best-spec .our-best-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#newpatient .our-best-spec .our-best-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#newpatient .our-best-spec .our-best-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#newpatient .our-best-spec .our-best-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#newpatient .our-best-spec .container {
+  height: 100%;
+}
+
+#newpatient .our-best-spec .container .row {
+  position: relative;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left {
+  position: relative;
+  top: 100px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .our-best-title h2 {
+  font-size: 48px;
+  text-align: left;
+  line-height: 1.15;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .our-best-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  font-family: 'Lora', serif;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .signup-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #fc5185;
+  height: 60px;
+  width: 180px;
+  top: 50px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .signup-btn svg {
+  margin-left: 32px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .signup-btn a {
+  padding-left: 12px;
+  cursor: cell;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#newpatient .our-best-spec .container .row .our-best-left .signup-btn span {
+  position: absolute;
+  background: #f98faf;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 3s linear;
+  transition: 3s linear;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right {
+  position: relative;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box1,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box2 {
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  padding: 80px 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box1 .box1-text h3,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box2 .box1-text h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double {
+  top: 65px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 {
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  padding: 80px 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text h3,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text h3,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text h3,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text p,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text p,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text p,
+#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  font-family: Lora, serif;
+  font-weight: 400;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */

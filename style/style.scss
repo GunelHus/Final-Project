@@ -71,11 +71,20 @@ body {
 						top: 87px;
 						li {
 							padding: 10px 30px;
+							&:hover{
+								background-color: #fc5185;
+								
+							}
 							a {
 								font-size: 16px;
 								color: #818181;
 								cursor: pointer;
+								transition: 0 !important;
+								&:hover{
+									color: white !important;
+								}
 							}
+							
 						}
 					}
 				}
@@ -4407,7 +4416,216 @@ footer {
 		}
 	}
 	// Doctors Section End
+
+	
+// What To Expect Section Start
+.our-best-spec {
+	position: relative;
+	.our-best-svg {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+
+		.plus-icon1 {
+			left: 60%;
+			top: 15%;
+		}
+
+		.plus-icon {
+			animation: zoomIn 2s infinite alternate;
+			position: absolute;
+		}
+		svg {
+			overflow: hidden;
+			vertical-align: middle;
+		}
+		.svg,
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		.plus-icon2 {
+			right: 10%;
+			top: 25%;
+			animation-delay: 1s;
+		}
+		.plus-icon3 {
+			right: 5%;
+			top: 50%;
+			animation-delay: 2s;
+		}
+		.plus-icon4 {
+			right: 10%;
+			top: 75%;
+			animation-delay: 3s;
+		}
+		.plus-icon5 {
+			left: 5%;
+			top: 50%;
+			animation-delay: 4s;
+		}
+		.plus-icon6 {
+			left: 20%;
+			top: 20%;
+			animation-delay: 5s;
+		}
+		.circle-icon1 {
+			left: 5%;
+			top: 30%;
+			animation-delay: 6s;
+		}
+		.circle-icon {
+			animation: matrix 8s infinite alternate;
+			position: absolute;
+		}
+		.circle-icon2 {
+			left: 40%;
+			bottom: 10%;
+		}
+		@keyframes zoomIn {
+			0% {
+				-webkit-transform: scale(0);
+				transform: scale(0);
+			}
+
+			100% {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+		}
+		@keyframes matrix {
+			0% {
+				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+				transform: matrix(1, 0, 0, 1, 0, 0);
+			}
+			25% {
+				-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+				transform: matrix(1, 0, 0, 1, 15, 20);
+			}
+			50% {
+				-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+				transform: matrix(1, 0, 0, 1, -5, 25);
+			}
+			75% {
+				-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+				transform: matrix(1, 0, 0, 1, -15, 15);
+			}
+			100% {
+				-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+				transform: matrix(1, 0, 0, 1, 0, 0);
+			}
+		}
 	}
+
+	.container {
+		height: 100%;
+		.row {
+			position: relative;
+			.our-best-left {
+				position: relative;
+				top: 100px;
+				.our-best-title {
+					h2 {
+						font-size: 48px;
+						text-align: left;
+						line-height: 1.15;
+						font-weight: bold;
+						font-family: "Josefin Sans", sans-serif;
+					}
+				}
+				.our-best-text {
+					p {
+						font-size: 16px;
+						line-height: 1.7;
+						color: #818181;
+						font-family: 'Lora', serif;
+					}
+					
+				}
+				.signup-btn {
+					display: flex;
+					align-items: center;
+					position: relative;
+					background: #fc5185;
+					height: 60px;
+					width: 180px;
+					top: 50px;
+					svg {
+						margin-left: 32px;
+					}
+					a {
+						padding-left: 12px;
+						cursor: cell;
+						font-weight: 400;
+						text-decoration: none;
+						color: white;
+					}
+					span {
+						position: absolute;
+						background: #f98faf;
+						width: 0;
+						height: 0;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+						transition: 3s linear;
+					}
+				}
+			}
+			.our-best-right {
+				position: relative;
+				.row {
+					.our-best-box1,
+					.our-best-box2 {
+						box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+						padding: 80px 30px;
+						margin-bottom: 30px;
+						margin-top: 50px;
+						.box1-text {
+							h3 {
+								font-family: "Josefin Sans", sans-serif;
+								font-size: 24px;
+								font-weight: 700;
+								line-height: 1;
+							}
+						}
+					}
+					.our-best-double {
+						top: 65px;
+						.our-best-box3,
+						.our-best-box4 {
+							box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+							padding: 80px 30px;
+							margin-bottom: 30px;
+							margin-top: 50px;
+							.box3-text,
+							.box4-text {
+								h3 {
+									font-family: "Josefin Sans", sans-serif;
+									font-size: 24px;
+									font-weight: 700;
+									line-height: 1;
+								}
+								p {
+									font-size: 16px;
+									line-height: 1.7;
+									color: #818181;
+									font-family: Lora, serif;
+									font-weight: 400;
+									text-align: left;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// What To Expect Section End
+	}
+	
 
 
 
