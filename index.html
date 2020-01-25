@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
+    <link rel ="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i&display=swap"
         rel="stylesheet">
@@ -108,14 +110,85 @@
                                 </svg>
                                 <span></span>
                                 <a href="appointment.html">Get Appointment</a>
-                            </li>
+                            </li> 
                         </ul>
+                    </div>
+                    <div class="bars">
+                        <a href="#" class="menu-bars"><i class="fas fa-bars"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <!-- Nav Menu Section End -->
+
+    <!-- Toggle Menu Section Start -->
+    <div class="toggle-menu">
+                <div class="row">
+                        <div class="col-md-8"></div>
+                        <div class="col-md-4 toggle-section">
+                            <div class="container">
+                                    <div class="toggle-image">
+                                            <img src="Images/DentZone.png">
+
+                                           <a href="" class="times"><i class="fas fa-times"></i></a> 
+                                        </div>
+                                        <div class="toggle-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="about.html">About</a>
+                                                </li>
+                                                <li class="li-dentist">
+                                                    <a href="#" class="dentist">Dentist</a>
+                                                    <div class="toggle-dropdown">
+                                                        <a href="doctors.html">Doctors</a>
+                                                        <a href="doctordetails.html">Doctor Details</a>
+                                                    </div>
+                                                </li>
+                                                <li class="li-dentist">
+                                                    <a href="#" class="dentist">Pages</a>
+                                                    <div class="toggle-dropdown">
+                                                        
+                                                          <a href="appointment.html">Appointment</a>
+                                                                
+                                                            <a href="service.html">Service Details</a>
+                                                                
+                                                            <a href="newpatient.html">New Patient</a>
+                                                                  
+                                                             <a href="coming.html">Coming Soon</a>
+                                                                  
+                                                             <a href="error.html">404</a>
+                                                                  
+                                                              <a href="faq.html">FAQ</a>
+                                                                   
+                                                             <a href="login.html">Log In</a>
+                                                                   
+                                                             <a href="signup.html">Sign Up</a>
+                                                    </div>
+                                                </li>
+                                                <li class="li-dentist">
+                                                    <a href="#" class="dentist">Blog</a>
+                                                    <div class="toggle-dropdown">
+                                                           <a href="default.html">Blog Default</a>
+                                                            <a href="blogdetails.html">Blog Details</a>
+                                                           
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                            </div>
+                            
+                        </div>
+                    
+        </div>
+        
+    </div>
     <main>
         <!-- Pro Dental Section Start -->
         <section class="pro-dental">
@@ -179,7 +252,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6 pro-dental-txt">
+                    <div class="col-lg-6 col-md-12 pro-dental-txt">
                         <h1>Pro Dental Care</h1>
                         <p>Duis mauris augue efficitur eu arcu sit amet posuere dignissim neque Aenean enim sem,
                             pharetra et magna sit amet luctus aliquet nibh Curabitur.</p>
@@ -203,10 +276,10 @@
                         </svg>
                         <a href="#" class="our-services-btn">Our Services</a>
                     </div>
-                    <div class="col-6 pro-dental-img">
+                    <div class="col-lg-6 col-md-12 pro-dental-img">
                         <div class="pro-dental-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width=""
-                                height="" viewBox="0 0 793.921 793.922" preserveAspectRatio="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 793.921 793.922" preserveAspectRatio="none"
                                 class="svg g-circle replaced-svg">
                                 <defs>
                                     <linearGradient id="linear-gradient" x1="5.448" y1="0.5" x2="-0.768" y2="0.452"
@@ -305,10 +378,10 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="welcome-left">
                             <div class="round-svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 688 688"
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 688 688"
                                     preserveAspectRatio="none" class="svg rotate-bg replaced-svg">
                                     <g id="welcome-bg" transform="translate(-473 -1864)" opacity="0.1">
                                         <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(668 2059)"
@@ -434,7 +507,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 welcome-text">
+                    <div class="col-lg-5 welcome-text">
                         <h1>Welcome To<br> DentZone</h1>
                         <p>Nunc scelerisque tincidunt elit. Vestibulum non mi ipsum. Cras pretium suscipit tellus sit
                             amet aliquet. ata Vestibulum maximus lacinia massa non porttitor. of Pellentesque vehicula
@@ -456,7 +529,7 @@
                     </div>
                 </div>
                 <div class="row treatment-service">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t1.jpg">
                         </div>
@@ -464,7 +537,7 @@
                             <a href="service.html">General Dentistry</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t2.jpg">
                         </div>
@@ -472,7 +545,7 @@
                             <a href="service.html">Cosmetic Dentistry</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t3.jpg">
                         </div>
@@ -480,7 +553,7 @@
                             <a href="service.html">Surgical Dentistry</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t4.jpg">
                         </div>
@@ -488,7 +561,7 @@
                             <a href="service.html">Restorative Dentistry</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t5.jpg">
                         </div>
@@ -496,7 +569,7 @@
                             <a href="service.html">Pediatric Dentistry</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="treatment-image">
                             <img src="Images/t6.jpg">
                         </div>
@@ -1080,7 +1153,7 @@
                     </div>
                     <div class="col-md-6 meet-our-right">
                         <div class="meet-our-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 688 688"
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 688 688"
                                 preserveAspectRatio="none" class="svg rotate-bg replaced-svg">
                                 <g id="welcome-bg" transform="translate(-473 -1864)" opacity="0.1">
                                     <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(668 2059)"
@@ -1142,7 +1215,7 @@
             <div class="container">
                 <div class="row">
                     <div class="patients-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 688 688"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 688 688"
                             preserveAspectRatio="none" class="svg rotate-bg replaced-svg">
                             <g id="welcome-bg" transform="translate(-473 -1864)" opacity="0.1">
                                 <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(668 2059)" fill="none"

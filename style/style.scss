@@ -4,10 +4,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box !important;
+	
 }
 // Header Start
 .header {
+	
 	.nav-logo {
 		.dentzone {
 			display: block;
@@ -139,6 +141,9 @@ body {
 			}
 		}
 	}
+	.bars{
+		display: none;
+	}
 }
 .animated {
 	animation-duration: 1s;
@@ -159,6 +164,62 @@ body {
 }
 // Header End
 
+.toggle-menu{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10;
+	display: none;
+	.row{
+		width: 100%;
+		margin: 0;
+	}
+	.toggle-section{
+		height: 100vh;
+		padding: 0;
+		background-color: #fc5185;
+		display: none;
+		.toggle-image{
+			display: flex;
+			justify-content: space-between;
+		}
+		.toggle-list{
+			width: 100%;
+			ul{
+				list-style: none;
+				li{
+					padding: 15px 0;
+					a{
+						text-decoration: none;
+						color: white;
+						font-family: 'Lora', serif;
+						font-size: 24px;
+					}
+				}
+				.li-dentist{
+					.toggle-dropdown{ 
+						min-width: 285px;
+						z-index: 10;
+						opacity: 0;
+						display: none;
+						a {
+							display: block;
+							color: white !important;
+							padding: 15px 14px;
+							font-size: 15px;
+							
+						}
+					}
+					&:hover .toggle-dropdown {
+						transition: 0.3s all;
+					  }
+				}
+			}
+		}
+	}
+}
 // Pro Dental Section Start
 .pro-dental {
 	height: 100vh;
@@ -557,7 +618,12 @@ body {
 			}
 		}
 		.treatment-service {
-			.col-md-4 {
+			.treatment-image{
+				img{
+					width: 100%;
+				}
+			}
+			.col-lg-4 {
 				&:hover {
 					.treatment-name {
 						background-color: #fc5185;
@@ -1131,7 +1197,7 @@ body {
 			}
 			.owl-carousel {
 				.item {
-					width: 517px;
+					width: 100%;
 					height: 360px;
 					box-shadow: 0 0 20px rgba(0, 0, 0, .04);
 					margin-top: 10px;
@@ -1495,6 +1561,7 @@ body {
 					textarea::placeholder {
 						font-size: 15px;
 						font-family: 'Lora', serif;
+						width: 100%;
 					}
 					a {
 						cursor: pointer;
@@ -2490,6 +2557,7 @@ footer {
 						textarea::placeholder {
 							font-size: 15px;
 							font-family: 'Lora', serif;
+							width: 100%;
 						}
 						a {
 							cursor: pointer;
@@ -4176,6 +4244,7 @@ footer {
 					textarea::placeholder {
 						font-size: 15px;
 						font-family: 'Lora', serif;
+						width: 100%;
 					}
 					a {
 						cursor: pointer;
@@ -4195,6 +4264,150 @@ footer {
 // Drop Up Section End
 	}
 
+	// New Patient Page
+
+	#newpatient{
+			// Doctors Section Start
+	.dentist {
+		padding-top: 60px;
+		height: 100%;
+		background-color: #241194;
+		position: relative;
+		width: 100%;
+		.about-svg {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			.plus-icon1 {
+				left: 60%;
+				top: 15%;
+			}
+
+			.plus-icon {
+				animation: zoomIn 2s infinite alternate;
+				position: absolute;
+			}
+			svg {
+				overflow: hidden;
+				vertical-align: middle;
+			}
+			.svg,
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.plus-icon2 {
+				right: 10%;
+				top: 25%;
+				animation-delay: 1s;
+			}
+			.plus-icon3 {
+				right: 5%;
+				top: 50%;
+				animation-delay: 2s;
+			}
+			.plus-icon4 {
+				right: 10%;
+				top: 75%;
+				animation-delay: 3s;
+			}
+			.plus-icon5 {
+				left: 5%;
+				top: 50%;
+				animation-delay: 4s;
+			}
+			.plus-icon6 {
+				left: 20%;
+				top: 20%;
+				animation-delay: 5s;
+			}
+			.circle-icon1 {
+				left: 5%;
+				top: 30%;
+				animation-delay: 6s;
+			}
+			.circle-icon {
+				animation: matrix 8s infinite alternate;
+				position: absolute;
+			}
+			.circle-icon2 {
+				left: 40%;
+				bottom: 10%;
+			}
+			@keyframes zoomIn {
+				0% {
+					-webkit-transform: scale(0);
+					transform: scale(0);
+				}
+
+				100% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			@keyframes matrix {
+				0% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+				25% {
+					-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+					transform: matrix(1, 0, 0, 1, 15, 20);
+				}
+				50% {
+					-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+					transform: matrix(1, 0, 0, 1, -5, 25);
+				}
+				75% {
+					-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+					transform: matrix(1, 0, 0, 1, -15, 15);
+				}
+				100% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+			}
+		}
+		.about-title {
+			color: white;
+			margin-top: 100px;
+			h2 {
+				font-size: 48px;
+				line-height: 1.3;
+				font-family: "Josefin Sans", sans-serif;
+				font-weight: 700;
+				margin-bottom: -15px;
+			}
+			ul {
+				list-style: none;
+				display: flex;
+				font-family: Lora, serif;
+				padding-left: 0;
+				li {
+					line-height: 1.7;
+					font-size: 18px;
+					a {
+						color: white;
+						text-decoration: none;
+						transition: .3s linear;
+						&:hover {
+							color: #fc5185;
+						}
+					}
+				}
+			}
+		}
+		.about-img {
+			height: 350px;
+			text-align: end;
+			img {
+				height: 320px;
+			}
+		}
+	}
+	// Doctors Section End
+	}
 
 
 

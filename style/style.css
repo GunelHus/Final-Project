@@ -5,8 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
 }
 
 .header {
@@ -172,6 +172,10 @@ body {
   color: black !important;
 }
 
+.sticky .bars {
+  display: none;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -203,6 +207,75 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+
+.toggle-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: none;
+}
+
+.toggle-menu .row {
+  width: 100%;
+  margin: 0;
+}
+
+.toggle-menu .toggle-section {
+  height: 100vh;
+  padding: 0;
+  background-color: #fc5185;
+  display: none;
+}
+
+.toggle-menu .toggle-section .toggle-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toggle-menu .toggle-section .toggle-list {
+  width: 100%;
+}
+
+.toggle-menu .toggle-section .toggle-list ul {
+  list-style: none;
+}
+
+.toggle-menu .toggle-section .toggle-list ul li {
+  padding: 15px 0;
+}
+
+.toggle-menu .toggle-section .toggle-list ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 24px;
+}
+
+.toggle-menu .toggle-section .toggle-list ul .li-dentist .toggle-dropdown {
+  min-width: 285px;
+  z-index: 10;
+  opacity: 0;
+  display: none;
+}
+
+.toggle-menu .toggle-section .toggle-list ul .li-dentist .toggle-dropdown a {
+  display: block;
+  color: white !important;
+  padding: 15px 14px;
+  font-size: 15px;
+}
+
+.toggle-menu .toggle-section .toggle-list ul .li-dentist:hover .toggle-dropdown {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 .pro-dental {
@@ -747,13 +820,17 @@ body {
   font-size: 40px;
 }
 
-.dental-treatment .treatment .treatment-service .col-md-4:hover .treatment-name {
+.dental-treatment .treatment .treatment-service .treatment-image img {
+  width: 100%;
+}
+
+.dental-treatment .treatment .treatment-service .col-lg-4:hover .treatment-name {
   background-color: #fc5185;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.dental-treatment .treatment .treatment-service .col-md-4:hover .treatment-name a {
+.dental-treatment .treatment .treatment-service .col-lg-4:hover .treatment-name a {
   color: white;
   -webkit-transition: 1s;
   transition: 1s;
@@ -1417,7 +1494,7 @@ body {
 }
 
 .our-patients .container .row .owl-carousel .item {
-  width: 517px;
+  width: 100%;
   height: 360px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
@@ -1842,21 +1919,25 @@ body {
 .drop-up .container .row .dropup-right .drop-up-form textarea::-webkit-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 .drop-up .container .row .dropup-right .drop-up-form textarea:-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 .drop-up .container .row .dropup-right .drop-up-form textarea::-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 .drop-up .container .row .dropup-right .drop-up-form textarea::placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 .drop-up .container .row .dropup-right .drop-up-form a {
@@ -3036,21 +3117,25 @@ footer .footer .footer-bottom .copy p a:hover {
 #page-about .drop-up .container .row .dropup-right .drop-up-form textarea::-webkit-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #page-about .drop-up .container .row .dropup-right .drop-up-form textarea:-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #page-about .drop-up .container .row .dropup-right .drop-up-form textarea::-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #page-about .drop-up .container .row .dropup-right .drop-up-form textarea::placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #page-about .drop-up .container .row .dropup-right .drop-up-form a {
@@ -4987,21 +5072,25 @@ footer .footer .footer-bottom .copy p a:hover {
 #service .drop-up .container .row .dropup-right .drop-up-form textarea::-webkit-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #service .drop-up .container .row .dropup-right .drop-up-form textarea:-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #service .drop-up .container .row .dropup-right .drop-up-form textarea::-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #service .drop-up .container .row .dropup-right .drop-up-form textarea::placeholder {
   font-size: 15px;
   font-family: 'Lora', serif;
+  width: 100%;
 }
 
 #service .drop-up .container .row .dropup-right .drop-up-form a {
@@ -5014,5 +5103,176 @@ footer .footer .footer-bottom .copy p a:hover {
   font-family: Lora, serif;
   -webkit-transition: .3s linear;
   transition: .3s linear;
+}
+
+#newpatient .dentist {
+  padding-top: 60px;
+  height: 100%;
+  background-color: #241194;
+  position: relative;
+  width: 100%;
+}
+
+#newpatient .dentist .about-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#newpatient .dentist .about-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#newpatient .dentist .about-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#newpatient .dentist .about-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#newpatient .dentist .about-svg .svg,
+#newpatient .dentist .about-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#newpatient .dentist .about-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#newpatient .dentist .about-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#newpatient .dentist .about-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#newpatient .dentist .about-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#newpatient .dentist .about-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#newpatient .dentist .about-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#newpatient .dentist .about-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#newpatient .dentist .about-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#newpatient .dentist .about-title {
+  color: white;
+  margin-top: 100px;
+}
+
+#newpatient .dentist .about-title h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+#newpatient .dentist .about-title ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lora, serif;
+  padding-left: 0;
+}
+
+#newpatient .dentist .about-title ul li {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+#newpatient .dentist .about-title ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+#newpatient .dentist .about-title ul li a:hover {
+  color: #fc5185;
+}
+
+#newpatient .dentist .about-img {
+  height: 350px;
+  text-align: end;
+}
+
+#newpatient .dentist .about-img img {
+  height: 320px;
 }
 /*# sourceMappingURL=style.css.map */

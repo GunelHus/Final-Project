@@ -1,0 +1,35 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.pro-dental .container {
+		height: 41%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.pro-dental .container {
+		height: 41%;
+	}
+	.nav-links{
+		display: none !important;
+		
+	}
+	.getapp{
+		display: block !important;
+	}
+	.bars{
+		display: block !important;
+		
+	}
+	.navbar{
+		display: flex !important;
+		justify-content: space-between !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.pro-dental .container {
+		height: 41%;
+	}
+}
