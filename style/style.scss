@@ -4276,7 +4276,7 @@ footer {
 	// New Patient Page
 
 	#newpatient{
-			// Doctors Section Start
+			
 	.dentist {
 		padding-top: 60px;
 		height: 100%;
@@ -4415,11 +4415,8 @@ footer {
 			}
 		}
 	}
-	// Doctors Section End
-
 	
-// What To Expect Section Start
-.our-best-spec {
+.what-to-expect {
 	position: relative;
 	.our-best-svg {
 		position: absolute;
@@ -4582,12 +4579,22 @@ footer {
 						padding: 80px 30px;
 						margin-bottom: 30px;
 						margin-top: 50px;
+						transition: .3s linear;
+						&:hover{
+							background-color:#241194;
+						}
+						&:hover h3{
+							color:white;
+						}
 						.box1-text {
 							h3 {
 								font-family: "Josefin Sans", sans-serif;
 								font-size: 24px;
 								font-weight: 700;
 								line-height: 1;
+								&:hover{
+									color:white;
+								}
 							}
 						}
 					}
@@ -4599,6 +4606,13 @@ footer {
 							padding: 80px 30px;
 							margin-bottom: 30px;
 							margin-top: 50px;
+							transition: .3s linear;
+							&:hover{
+								background-color:#241194;
+							}
+							&:hover h3{
+								color:white;
+							}
 							.box3-text,
 							.box4-text {
 								h3 {
@@ -4606,6 +4620,7 @@ footer {
 									font-size: 24px;
 									font-weight: 700;
 									line-height: 1;
+									
 								}
 								p {
 									font-size: 16px;
@@ -4623,9 +4638,202 @@ footer {
 		}
 	}
 }
-// What To Expect Section End
-	}
+}
 	
+	// Coming Soon Page Start
+#comingsoon{
+	background-color: #241194;
+	.soon{
+		position: relative;
+		.our-best-svg {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+	
+			.plus-icon1 {
+				left: 60%;
+				top: 15%;
+			}
+	
+			.plus-icon {
+				animation: zoomIn 2s infinite alternate;
+				position: absolute;
+			}
+			svg {
+				overflow: hidden;
+				vertical-align: middle;
+			}
+			.svg,
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.plus-icon2 {
+				right: 10%;
+				top: 25%;
+				animation-delay: 1s;
+			}
+			.plus-icon3 {
+				right: 5%;
+				top: 50%;
+				animation-delay: 2s;
+			}
+			.plus-icon4 {
+				right: 10%;
+				top: 75%;
+				animation-delay: 3s;
+			}
+			.plus-icon5 {
+				left: 5%;
+				top: 50%;
+				animation-delay: 4s;
+			}
+			.plus-icon6 {
+				left: 20%;
+				top: 20%;
+				animation-delay: 5s;
+			}
+			.circle-icon1 {
+				left: 5%;
+				top: 30%;
+				animation-delay: 6s;
+			}
+			.circle-icon {
+				animation: matrix 8s infinite alternate;
+				position: absolute;
+			}
+			.circle-icon2 {
+				left: 40%;
+				bottom: 10%;
+			}
+			@keyframes zoomIn {
+				0% {
+					-webkit-transform: scale(0);
+					transform: scale(0);
+				}
+	
+				100% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			@keyframes matrix {
+				0% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+				25% {
+					-webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+					transform: matrix(1, 0, 0, 1, 15, 20);
+				}
+				50% {
+					-webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+					transform: matrix(1, 0, 0, 1, -5, 25);
+				}
+				75% {
+					-webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+					transform: matrix(1, 0, 0, 1, -15, 15);
+				}
+				100% {
+					-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+					transform: matrix(1, 0, 0, 1, 0, 0);
+				}
+			}
+		}
+	
+		.container {
+			height: 100%;
+			.row {
+				position: relative;
+				.our-best-left {
+					position: relative;
+					top: 100px;
+					.soon-input{
+						input{
 
+						}
+						button{
+							
+						}
+					}
+					.our-best-title {
+						h2 {
+							color: white;
+							font-size: 48px;
+							text-align: left;
+							line-height: 1.15;
+							font-weight: bold;
+							font-family: "Josefin Sans", sans-serif;
+						}
+					}
+					.our-best-text {
+						p {
+							font-size: 16px;
+							line-height: 1.7;
+							color: #818181;
+							font-family: 'Lora', serif;
+						}
+					}
+				}
+				.our-best-right {
+					position: relative;
+					.row {
+						.our-best-box1,
+						.our-best-box2 {
+							background-color: white;
+							box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+							padding: 60px 30px;
+							margin-bottom: 30px;
+							margin-top: 50px;
+							.box1-text {
+								text-align: center;
+								h3 {
+									font-family: "Josefin Sans", sans-serif;
+									font-size: 40px;
+									font-weight: 700;
+									line-height: 1;
+								}
+								p{
+									font-size: 24px;
+									font-family: "Josefin Sans", sans-serif;
+									font-weight: bold;
+									margin-top: -41px;
+								}
+							}
+						}
+						.our-best-double {
+							top: 65px;
+							margin-bottom: 100px;
+							.our-best-box3,
+							.our-best-box4 {
+								text-align: center;
+								background-color: white;
+								box-shadow: 10px 7px 45px rgba(0, 0, 0, .04);
+								padding: 65px 30px;
+								margin-top: 50px;
+								.box3-text,
+								.box4-text {
+									h3 {
+										font-family: "Josefin Sans", sans-serif;
+										font-size: 40px;
+									    font-weight: 700;
+										line-height: 1;
+									}
+									p {
+										font-size: 24px;
+										font-family: "Josefin Sans", sans-serif;
+									    font-weight: bold;
+										margin-top: -41px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 

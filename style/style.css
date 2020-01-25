@@ -5286,88 +5286,88 @@ footer .footer .footer-bottom .copy p a:hover {
   height: 320px;
 }
 
-#newpatient .our-best-spec {
+#newpatient .what-to-expect {
   position: relative;
 }
 
-#newpatient .our-best-spec .our-best-svg {
+#newpatient .what-to-expect .our-best-svg {
   position: absolute;
   top: 50%;
   left: 0;
   width: 100%;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon1 {
+#newpatient .what-to-expect .our-best-svg .plus-icon1 {
   left: 60%;
   top: 15%;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon {
+#newpatient .what-to-expect .our-best-svg .plus-icon {
   -webkit-animation: zoomIn 2s infinite alternate;
           animation: zoomIn 2s infinite alternate;
   position: absolute;
 }
 
-#newpatient .our-best-spec .our-best-svg svg {
+#newpatient .what-to-expect .our-best-svg svg {
   overflow: hidden;
   vertical-align: middle;
 }
 
-#newpatient .our-best-spec .our-best-svg .svg,
-#newpatient .our-best-spec .our-best-svg img {
+#newpatient .what-to-expect .our-best-svg .svg,
+#newpatient .what-to-expect .our-best-svg img {
   max-width: 100%;
   height: auto;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon2 {
+#newpatient .what-to-expect .our-best-svg .plus-icon2 {
   right: 10%;
   top: 25%;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon3 {
+#newpatient .what-to-expect .our-best-svg .plus-icon3 {
   right: 5%;
   top: 50%;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon4 {
+#newpatient .what-to-expect .our-best-svg .plus-icon4 {
   right: 10%;
   top: 75%;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon5 {
+#newpatient .what-to-expect .our-best-svg .plus-icon5 {
   left: 5%;
   top: 50%;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
 
-#newpatient .our-best-spec .our-best-svg .plus-icon6 {
+#newpatient .what-to-expect .our-best-svg .plus-icon6 {
   left: 20%;
   top: 20%;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 
-#newpatient .our-best-spec .our-best-svg .circle-icon1 {
+#newpatient .what-to-expect .our-best-svg .circle-icon1 {
   left: 5%;
   top: 30%;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
-#newpatient .our-best-spec .our-best-svg .circle-icon {
+#newpatient .what-to-expect .our-best-svg .circle-icon {
   -webkit-animation: matrix 8s infinite alternate;
           animation: matrix 8s infinite alternate;
   position: absolute;
 }
 
-#newpatient .our-best-spec .our-best-svg .circle-icon2 {
+#newpatient .what-to-expect .our-best-svg .circle-icon2 {
   left: 40%;
   bottom: 10%;
 }
@@ -5406,20 +5406,20 @@ footer .footer .footer-bottom .copy p a:hover {
   }
 }
 
-#newpatient .our-best-spec .container {
+#newpatient .what-to-expect .container {
   height: 100%;
 }
 
-#newpatient .our-best-spec .container .row {
+#newpatient .what-to-expect .container .row {
   position: relative;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left {
+#newpatient .what-to-expect .container .row .our-best-left {
   position: relative;
   top: 100px;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .our-best-title h2 {
+#newpatient .what-to-expect .container .row .our-best-left .our-best-title h2 {
   font-size: 48px;
   text-align: left;
   line-height: 1.15;
@@ -5427,14 +5427,14 @@ footer .footer .footer-bottom .copy p a:hover {
   font-family: "Josefin Sans", sans-serif;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .our-best-text p {
+#newpatient .what-to-expect .container .row .our-best-left .our-best-text p {
   font-size: 16px;
   line-height: 1.7;
   color: #818181;
   font-family: 'Lora', serif;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .signup-btn {
+#newpatient .what-to-expect .container .row .our-best-left .signup-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5448,11 +5448,11 @@ footer .footer .footer-bottom .copy p a:hover {
   top: 50px;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .signup-btn svg {
+#newpatient .what-to-expect .container .row .our-best-left .signup-btn svg {
   margin-left: 32px;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .signup-btn a {
+#newpatient .what-to-expect .container .row .our-best-left .signup-btn a {
   padding-left: 12px;
   cursor: cell;
   font-weight: 400;
@@ -5460,7 +5460,7 @@ footer .footer .footer-bottom .copy p a:hover {
   color: white;
 }
 
-#newpatient .our-best-spec .container .row .our-best-left .signup-btn span {
+#newpatient .what-to-expect .container .row .our-best-left .signup-btn span {
   position: absolute;
   background: #f98faf;
   width: 0;
@@ -5473,59 +5473,311 @@ footer .footer .footer-bottom .copy p a:hover {
   transition: 3s linear;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right {
+#newpatient .what-to-expect .container .row .our-best-right {
   position: relative;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box1,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box2 {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box1,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box2 {
   -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
           box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
   padding: 80px 30px;
   margin-bottom: 30px;
   margin-top: 50px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box1 .box1-text h3,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-box2 .box1-text h3 {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box1:hover,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box2:hover {
+  background-color: #241194;
+}
+
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box1:hover h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box2:hover h3 {
+  color: white;
+}
+
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box1 .box1-text h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box2 .box1-text h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box1 .box1-text h3:hover,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-box2 .box1-text h3:hover {
+  color: white;
+}
+
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double {
   top: 65px;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4 {
   -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
           box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
   padding: 80px 30px;
   margin-bottom: 30px;
   margin-top: 50px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text h3,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text h3,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text h3,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text h3 {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3:hover,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4:hover {
+  background-color: #241194;
+}
+
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3:hover h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4:hover h3 {
+  color: white;
+}
+
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text h3,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
 }
 
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text p,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text p,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text p,
-#newpatient .our-best-spec .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text p {
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text p,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text p,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text p,
+#newpatient .what-to-expect .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text p {
   font-size: 16px;
   line-height: 1.7;
   color: #818181;
   font-family: Lora, serif;
   font-weight: 400;
   text-align: left;
+}
+
+#comingsoon {
+  background-color: #241194;
+}
+
+#comingsoon .soon {
+  position: relative;
+}
+
+#comingsoon .soon .our-best-svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon1 {
+  left: 60%;
+  top: 15%;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon {
+  -webkit-animation: zoomIn 2s infinite alternate;
+          animation: zoomIn 2s infinite alternate;
+  position: absolute;
+}
+
+#comingsoon .soon .our-best-svg svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#comingsoon .soon .our-best-svg .svg,
+#comingsoon .soon .our-best-svg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon2 {
+  right: 10%;
+  top: 25%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon3 {
+  right: 5%;
+  top: 50%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon4 {
+  right: 10%;
+  top: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon5 {
+  left: 5%;
+  top: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#comingsoon .soon .our-best-svg .plus-icon6 {
+  left: 20%;
+  top: 20%;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#comingsoon .soon .our-best-svg .circle-icon1 {
+  left: 5%;
+  top: 30%;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#comingsoon .soon .our-best-svg .circle-icon {
+  -webkit-animation: matrix 8s infinite alternate;
+          animation: matrix 8s infinite alternate;
+  position: absolute;
+}
+
+#comingsoon .soon .our-best-svg .circle-icon2 {
+  left: 40%;
+  bottom: 10%;
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes matrix {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  25% {
+    -webkit-transform: matrix(1, 0, 0, 1, 15, 20);
+    transform: matrix(1, 0, 0, 1, 15, 20);
+  }
+  50% {
+    -webkit-transform: matrix(1, 0, 0, 1, -5, 25);
+    transform: matrix(1, 0, 0, 1, -5, 25);
+  }
+  75% {
+    -webkit-transform: matrix(1, 0, 0, 1, -15, 15);
+    transform: matrix(1, 0, 0, 1, -15, 15);
+  }
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+#comingsoon .soon .container {
+  height: 100%;
+}
+
+#comingsoon .soon .container .row {
+  position: relative;
+}
+
+#comingsoon .soon .container .row .our-best-left {
+  position: relative;
+  top: 100px;
+}
+
+#comingsoon .soon .container .row .our-best-left .our-best-title h2 {
+  color: white;
+  font-size: 48px;
+  text-align: left;
+  line-height: 1.15;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#comingsoon .soon .container .row .our-best-left .our-best-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  font-family: 'Lora', serif;
+}
+
+#comingsoon .soon .container .row .our-best-right {
+  position: relative;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-box1,
+#comingsoon .soon .container .row .our-best-right .row .our-best-box2 {
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  padding: 60px 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-box1 .box1-text,
+#comingsoon .soon .container .row .our-best-right .row .our-best-box2 .box1-text {
+  text-align: center;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-box1 .box1-text h3,
+#comingsoon .soon .container .row .our-best-right .row .our-best-box2 .box1-text h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-box1 .box1-text p,
+#comingsoon .soon .container .row .our-best-right .row .our-best-box2 .box1-text p {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  margin-top: -41px;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-double {
+  top: 65px;
+  margin-bottom: 100px;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box3,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box4 {
+  text-align: center;
+  background-color: white;
+  -webkit-box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 7px 45px rgba(0, 0, 0, 0.04);
+  padding: 65px 30px;
+  margin-top: 50px;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text h3,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text h3,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text h3,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box3 .box3-text p,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box3 .box4-text p,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box4 .box3-text p,
+#comingsoon .soon .container .row .our-best-right .row .our-best-double .our-best-box4 .box4-text p {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  margin-top: -41px;
 }
 /*# sourceMappingURL=style.css.map */
