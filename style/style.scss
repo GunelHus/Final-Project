@@ -1,15 +1,12 @@
-* {
-	font-family: 'Lora', serif;
-}
+
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box !important;
-	
+	font-family: 'Lora', serif;
 }
 // Header Start
 .header {
-	
 	.nav-logo {
 		.dentzone {
 			display: block;
@@ -216,7 +213,6 @@ body {
 							color: white !important;
 							padding: 15px 14px;
 							font-size: 15px;
-							
 						}
 					}
 					&:hover .toggle-dropdown {
@@ -236,7 +232,6 @@ body {
 			left: 60%;
 			top: 15%;
 		}
-
 		.plus-icon {
 			animation: zoomIn 2s infinite alternate;
 			position: absolute;
@@ -428,7 +423,6 @@ body {
 			left: 60%;
 			top: 15%;
 		}
-
 		.plus-icon {
 			animation: zoomIn 2s infinite alternate;
 			position: absolute;
@@ -759,7 +753,6 @@ body {
 			}
 		}
 	}
-
 	.container {
 		height: 100%;
 		.row {

@@ -1,12 +1,9 @@
-* {
-  font-family: 'Lora', serif;
-}
-
 body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
+  font-family: 'Lora', serif;
 }
 
 .header {
